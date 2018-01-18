@@ -15,4 +15,5 @@ get_header(); ?>  <!-- como se fosse um link para o header, onrigatoriamente tem
         <h2><?php the_title(); ?><h2>
     <?php endwhile; ?>
 
+
 <?php get_footer();

@@ -9,6 +9,9 @@
 
 get_header(); ?>
 
-<h1>Amanco e Bruna Rules</h1>
+    <a href = receitas>Receitas</a>
+    <a href = lojas>Lojas</a>
+    <a href = sobre>Sobre</a>
+
 
 <?php get_footer();

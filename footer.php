@@ -9,7 +9,7 @@
 ?>
 
 <footer></footer>
-<?php wp_footer(); ?>
+<?php wp_footer(); ?> <!-- necessario para funcionar o wordpress-->
 
 </body>
 </html>
