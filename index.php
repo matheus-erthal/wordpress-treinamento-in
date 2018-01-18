@@ -9,10 +9,10 @@
 
 get_header(); ?>
 
-<?php if (have_posts()): ?>
+<?php if (have_posts()): // como inserir um post?>
     <?php while(have_posts()): ?>
         <?php the_post(); ?>
-        <h2><?php the_title(); ?></h2>
+        <a href=""<?php get_permalink(); ?>"<h2><?php the_title(); ?></h2></a>
     <?php endwhile; ?>
 <?php endif; ?>
 
