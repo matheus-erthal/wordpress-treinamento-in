@@ -9,16 +9,17 @@
 
 get_header(); ?>
 
+<?php //The Query 
+$nossa_query = new WP_Query( array('posts_type' => notas) );
+?>
+
 <h1>Grupo 4</h1>
 
-<?php if (have_posts()): ?>
-    <?php while(have_posts()): ?>
-        <?php the_post(); ?>
-        <h2><?php the_title(); ?></h2>
+<?php if ($nossa_query -> have_posts()): ?>
+    <?php while($nossa_query -> have_posts()): ?>
+        <?php $nossa_query -> the_post(); ?>
+	<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
     <?php endwhile; ?>
 <?php endif; ?>
-
-
-
 
 <?php get_footer();
