@@ -9,6 +9,8 @@
 
 get_header(); ?>
 
+<h1>Grupo 1</h1>
+
 <?php if (have_posts()): ?>
     <?php while(have_posts()): ?>
         <?php the_post(); ?>
