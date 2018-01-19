@@ -24,6 +24,7 @@
 </head>
 
 <body>
+<header>
 
 <div class="cabecalho">
     <div class="cabecalho-container">
