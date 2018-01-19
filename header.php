@@ -19,20 +19,21 @@
 	<meta name="robots" content="index, follow"/>
 	<meta name="keywords" content="restaurante, sabor, brasil, sabor brasil, sabor-brasil, niterói, culinária, comida, chef, brasileira, diferencial, diferenciados, qualidade, gostoso, saboroso, especial, excelente, valor, refrigerante, bebidas, sobremesas, tradição, maravilhoso, pratos, típicos, apetite, fome, delicioso"/>
   	<link href="https://www.restaurantesaborbrasil.com.br">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
 <body>
 
-<header class="cabecalho">
+<div class="cabecalho">
     <div class="cabecalho-container">
-        <div class="cabecalho-link">
+        <div class="cabecalho-item">
             <h2><a href="<?= get_template_directory_uri(); ?>/quem-somos.php">Quem Somos</a></h2>
         </div>
-    <div class="cabecalho-imagem">
+    <div class="cabecalho-item">
         <img src="<?= get_template_directory_uri(); ?>/assets/img/logo-restaurante.png">
     </div>
-         <div class="cabecalho-link">
+         <div class="cabecalho-item">
             <h2><a href="">Nosso Blog</a></h2>
         </div>
     </div>
