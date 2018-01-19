@@ -39,4 +39,30 @@ Text Domain: meu-tema
 19.0 Media Queries
 20.0 Print
 --------------------------------------------------------------*/
+.menu{
+	background: rgb(50,59,186);
+	color: white;
+}
+
+.menu-nav li{
+	list-style: none;
+}
+
+.menu-nave li a{
+	color: white;
+	text-decoration: none;
+}
+
+.quem-somos{
+	background: #BDCEFA;
+}
+
+.proposito{
+	background: #BDCEFA;
+}
+
+.footer{
+	background: rgb(50,59,186);
+	color: white;
+}
 

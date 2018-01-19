@@ -11,12 +11,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="<?= get_template_directory_uri(); ?> /style.css">
 
 <?php wp_head(); ?>
 </head>
 
-<body>
 	<header class="menu">
 		<div class="menu-container">
 			<a class="menu-logo" href="#"><img src="img/logo-branca-in.png" alt="logo branca da In Junior"></a>	
@@ -32,3 +31,5 @@
 		</div>
 	</header>
 	
+<body>
+
