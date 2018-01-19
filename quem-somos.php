@@ -1,11 +1,5 @@
 <?php
-/**
- *
- * @package WordPress
- * @subpackage meu-tema
- * @since 1.0
- * @version 1.0
- */
+/* Template Name: Quem Somos */
 
 get_header(); ?>
 
