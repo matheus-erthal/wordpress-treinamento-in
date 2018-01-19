@@ -1,17 +1,4 @@
-<<<<<<< HEAD
 <? php
-/* Template Name: Home Template */
-get_header();
-
-?>
-<h2> minha página </h2>
-
-
-
-<? php get_footer(); ?>
-=======
-<?php
-<<<<<<< HEAD
 
 /*template name: home template*/
 
@@ -52,14 +39,3 @@ get_header();
 </section>
 
 <?php get_footer();?>
-=======
-/*template name:home- template*/
-	get_header();
-
-?>
-<h1>hahahahahh</h1>
-
-
-<?php get_footer(); ?>
->>>>>>> ea5faa6481d66c7cdd4cfc9b46f721138cd3d7c8
->>>>>>> 911a476a95990a31d8f1323bde020afb45454c14
