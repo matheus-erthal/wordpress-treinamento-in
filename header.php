@@ -24,3 +24,16 @@
 
 <body>
 
+<header class="cabecalho">
+    <div class="cabecalho-container">
+        <div class="cabecalho-link">
+            <h2><a href="<?= get_template_directory_uri(); ?>/quem-somos.php">Quem Somos</a></h2>
+        </div>
+    <div class="cabecalho-imagem">
+        <img src="<?= get_template_directory_uri(); ?>/assets/img/logo-restaurante.png">
+    </div>
+         <div class="cabecalho-link">
+            <h2><a href="">Nosso Blog</a></h2>
+        </div>
+    </div>
+</header>
