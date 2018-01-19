@@ -18,9 +18,9 @@
 	Niterói RJ</p>
 
 		<div class="meio">
-			<img src="img/facebook.png" alt ="logo do facebook">
-			<img src="img/linkedin.png" alt="logo do linkedin">
-			<img src="img/instagram.png" alt="logo do instagram">
+			<a href="#"><img src="img/facebook.png" alt ="logo do facebook"></a>
+			<a href="#"><img src="img/linkedin.png" alt="logo do linkedin"></a>
+			<a href="#"><img src="img/instagram.png" alt="logo do instagram"></a>
 			<p>copyright
 			<br>
 			contato@injunior.com.br</p>	

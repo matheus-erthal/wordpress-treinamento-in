@@ -16,13 +16,8 @@ get_header(); ?>
 <?php while(have_posts()): the_post(); ?>
 	<h2> <?php the_title(); ?> </h2>
 	<p> <?php the_content(); ?> </p>
+	<img src="<?php the_field('aluno'); ?>">
 <?php endwhile; ?>
-=======
-    <?php while(have_posts()):the_post(); ?>
 
-        <h2><?php the_title(); ?></h2>
-    <?php endwhile; ?>
-
->>>>>>> ea5faa6481d66c7cdd4cfc9b46f721138cd3d7c8
 
 <?php get_footer();
