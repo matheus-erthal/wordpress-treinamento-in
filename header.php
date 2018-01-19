@@ -34,9 +34,11 @@
     <div class="cabecalho-item">
         <a href="<?= get_site_url(); ?>/index.php "><img src="<?= get_template_directory_uri(); ?>/assets/img/logo-restaurante.png"></a>
     </div>
-    <div class="cabecalho-item">
-        <h2><a href="<?= get_site_url(); ?>/index.php/blog">Nosso Blog</a></h2>
+         <div class="cabecalho-item">
+            <h2><a href="<?= get_site_url(); ?>/index.php/blog">Nosso Blog</a></h2>
+
+
+        </div>
     </div>
-    </div>
+
 </div>
-</header>
