@@ -13,7 +13,57 @@ Text Domain: Restaurante Sabor Brasil
 	padding: 0;
 	}
 
+/* 1 : HEADER */
+.cabecalho{
+  background: #fff;
+}
 
+.cabecalho-container{
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 10px;
+  display: inline-block;
+  border-bottom: 1px solid #000;
+}
+
+.cabecalho-item{
+  padding-top: 90px;
+  position: relative;
+  float:left;
+  width: 306px;
+  text-align: center;
+}
+
+.cabecalho-container::after, .cabecalho-container::before{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.cabecalho-item a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  border: 0px solid #f4e567;
+}
+
+.cabecalho-item a:hover{
+  color: #006db2;
+  border-bottom: 1px solid #f4e567;
+  padding: 9px;
+  transition: 0.3s;
+}
+
+.cabecalho-item img{
+
+  margin-top: -95px;
+  margin-bottom: -75px;
+}
+
+/*  : FOOTER */
 .footer{
   background-color: #000000;
 
@@ -41,7 +91,7 @@ Text Domain: Restaurante Sabor Brasil
   margin-top: -45px;
 }
 
-.footer-container-img::after, .footer-container-img::before{
+.footer-container::after, .footer-container::before{
   	content:"";
   	display: block;
   	clear: both;
