@@ -35,7 +35,7 @@
             </a>
     </div>
          <div class="cabecalho-link">
-            <h2><a href="">Nosso Blog</a></h2>
+            <h2><a href="<?= get_site_url(); ?>/index.php/blog">Nosso Blog</a></h2>
         </div>
     </div>
 </header>

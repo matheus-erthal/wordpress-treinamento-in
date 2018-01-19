@@ -20,7 +20,11 @@ $nossa_query = new WP_Query( array( 'post_type' => 'receitas') );
         <?php $nossa_query->the_post(); ?>
         <div class="conteudo">
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <br>
+        <img src="<?php the_field('foto_da_receita'); ?>    ">
+        <br>
         <p><?php the_content() ?></p>
+
     </div>
         
     <?php endwhile; ?>
