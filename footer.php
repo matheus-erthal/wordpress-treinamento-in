@@ -14,6 +14,9 @@
     <div class="footer-container">
         <?php get_search_form(); ?>
         <div class="footer-container-img">
+            <span class="dashicons dashicons-facebook"></span>
+            <span class="dashicons dashicons-twitter"></span>
+            
         </div>
     </div>
     <div class="footer-sobre">

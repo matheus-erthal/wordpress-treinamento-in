@@ -13,7 +13,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<?php wp_head(); ?>
+<head>
+	<title>Pratos típicos Brasileiros de qualidade e saborosos só no Sabor Brasil</title>
+	<meta name="description" content="Visite nosso site e soboreiam pratos maravilhosos da culinária Brasileira, descubram o Sabor do Brasil e desfrutam de nossa tradição, qualidade e requinte! Além do Cardápio do dia, participem do nosso blog.| Pratos: Feijoada, Rabada, Bobó de Camarão, Angu à Bahiana e dentre outros."/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="keywords" content="restaurante, sabor, brasil, sabor brasil, sabor-brasil, niterói, culinária, comida, chef, brasileira, diferencial, diferenciados, qualidade, gostoso, saboroso, especial, excelente, valor, refrigerante, bebidas, sobremesas, tradição, maravilhoso, pratos, típicos, apetite, fome, delicioso"/>
+  	<link href="https://www.restaurantesaborbrasil.com.br">
+	<?php wp_head(); ?>
 </head>
 
 <body>
