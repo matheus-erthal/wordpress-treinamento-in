@@ -33,13 +33,11 @@
     <div class="cabecalho-item">
         <img src="<?= get_template_directory_uri(); ?>/assets/img/logo-restaurante.png">
     </div>
-<<<<<<< HEAD
-         <div class="cabecalho-link">
-            <h2><a href="<?= get_site_url(); ?>/index.php/blog">Nosso Blog</a></h2>
-=======
          <div class="cabecalho-item">
-            <h2><a href="">Nosso Blog</a></h2>
->>>>>>> 384aa998f0f28a12ba53d82b8b4b4175358fe195
+            <h2><a href="<?= get_site_url(); ?>/index.php/blog">Nosso Blog</a></h2>
+
+
         </div>
     </div>
-</header>
+
+</div>

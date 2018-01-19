@@ -16,6 +16,7 @@ Text Domain: Restaurante Sabor Brasil
 /* 1 : HEADER */
 .cabecalho{
   background: #fff;
+  text-align: center;
 }
 
 .cabecalho-container{
@@ -66,6 +67,9 @@ Text Domain: Restaurante Sabor Brasil
 /*  : FOOTER */
 .footer{
   background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
 }
 .footer-container{
