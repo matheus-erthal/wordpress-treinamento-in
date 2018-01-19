@@ -13,6 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1>
 <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
 <link href="https://fonts.googleapis.com/css?family=Quicksand:300,700" rel="stylesheet">
+<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/home.js"></script>
 <?php wp_head(); ?>
 </head>
 
