@@ -7,14 +7,40 @@
  */
 
 ?>
-
-
+<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
+<br><br><br>
 <footer>
   <div class="footer-container">
-    <h2>Endereço: Escola de Magia e Bruxaria de Hogwarts</h2>
-    <h2>Sala do Diretor</h2>
-    <p>Facebook> Minerva MacGonagall</p>
-    <p>Twitter: @minervamc</p>
+      <div class="contato">
+        <h2>Contato:</h2>
+        <p>Tel.: (21)98920-6381</p>
+        <p>E-mail: macgonagall@hogwarts.com</p>
+      </div>
+      <a class="brasao" href="#">
+        <img src="<?= get_template_directory_uri(); ?>/assets/img/horgwarts.png" alt="Emblema de Hogwarts">
+      </a>
+      <div class="rede_soc">
+        <h2>Rede Social:</h2>
+        <nav>
+            <ul class="icones-sociais">
+                <li>
+                    <a href="https://br.linkedin.com" class="linkedin">
+                        <img src="<?= get_template_directory_uri(); ?>/assets/img/linkedin.svg" alt="emblema linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" class="twitter">
+                        <img src="<?= get_template_directory_uri(); ?>/assets/img/twitter.svg" alt="emblema twitter">
+                    </a>
+                </li>
+                <li>
+                    <a class="facebook" href="http://www.facebook.com.br">
+                      <img src="<?= get_template_directory_uri(); ?>/assets/img/facebook.svg" alt="emblema face">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+      </div>
   </div>
 </footer>
 

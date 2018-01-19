@@ -10,10 +10,29 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1>
+<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,700" rel="stylesheet">
 <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/home.js"></script>
 <?php wp_head(); ?>
 </head>
 
 <body>
+  <header class="menu">
+    <div class="menu-container">
+      <div class="titulo-menu">
+        <a href="#">Minerva</a>
+          <a href="#">McGonagall</a>
+      </div>
+
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Turmas</a></li>
+          <li><a href="#">Calculadora</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+  </div>
+</header>
