@@ -70,6 +70,55 @@ Text Domain: Restaurante Sabor Brasil
   margin-bottom: -75px;
 }
 
+/* ------------------------------------------------------------------------------------------ */
+
+/* 2: QUEM SOMOS */
+.qs{
+  background: #fff;
+}
+
+.qs-container{
+  max-width: 960px;
+  margin: 20px auto;
+
+  padding: 50px auto;
+}
+.qs-container::after, .qs-container::before{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.container-img{
+  background-color: #fada00;
+  padding: 10px;
+  width: 440px;
+  float: left;
+  margin-left: 10px;
+}
+.container-img img{
+  width: 440px;
+}
+
+.container-texto{
+  background-color: #efefef;
+  padding: 10px;
+  width: 440px;
+  margin: 0 15px;
+  float: left;
+}
+
+.container-texto p{
+  line-height: 1.4em;
+  font-family: monospace;
+  font-size: 1.125em;
+  text-align: justify;
+  padding: 20px;
+  border: 1px solid #c2bebe;
+  color: #454336;
+}
+/* ------------------------------------------------------------------------------------------ */
+
 /*  : FOOTER */
 .footer{
   background-color: #000000;
