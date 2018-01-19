@@ -1,3 +1,13 @@
+/*
+Theme Name: Home Template
+Author: Letícia, Marcelo e Pedro Souza
+Description: Tema utilizado para o treinamento da IN Junior
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meu-tema
+*/
+
 /* reset */
 
 * {
@@ -55,7 +65,11 @@
 .intro {
 	padding: 150px 0px;
 	text-align: center;
+<<<<<<< HEAD
+	background: url("Projeto/working-1200x675.jpg") no-repeat center center; */
+=======
 /*	background: url("../img/bg-intro.jpg") no-repeat center center; */
+>>>>>>> 421097c6181a47c8466064ed77aed7a8f03b6b0f
 	background-size: cover;
 	color: #000000;
 	text-transform: uppercase;
