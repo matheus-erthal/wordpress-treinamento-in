@@ -6,6 +6,6 @@ get_header();
 
 ?>
 
-<h2>minha pagina pica</h2>
+<h2>pagina principal</h2>
 
 <?php get_footer();?>
