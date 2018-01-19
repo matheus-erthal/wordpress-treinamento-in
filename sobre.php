@@ -23,9 +23,6 @@ get_header(); ?>
       <div class='text_contenier'>
       <?php the_content(); ?>
       </div>
-
-
-
     <?php endwhile; ?>
 <?php endif; ?>
 
