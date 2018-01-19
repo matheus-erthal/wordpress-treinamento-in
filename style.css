@@ -19,6 +19,12 @@ Text Domain: Restaurante Sabor Brasil
   text-align: center;
 }
 
+.container::before{
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .cabecalho-container{
   max-width: 920px;
   margin: 0 auto;
@@ -67,7 +73,6 @@ Text Domain: Restaurante Sabor Brasil
 /*  : FOOTER */
 .footer{
   background-color: #000000;
-  position: absolute;
   bottom: 0;
   width: 100%;
 
