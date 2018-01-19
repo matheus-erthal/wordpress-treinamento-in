@@ -19,6 +19,8 @@
 			<p> Copyright © 2017 Feito com <3 | IN Junior </p>
 		</div>
 	</footer>
+	
+<?php wp_footer(); ?>
 
 </body>
 </html>
