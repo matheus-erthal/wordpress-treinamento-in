@@ -65,7 +65,11 @@ Text Domain: meu-tema
 .intro {
 	padding: 150px 0px;
 	text-align: center;
+<<<<<<< HEAD
 	background: url("Projeto/working-1200x675.jpg") no-repeat center center; */
+=======
+/*	background: url("../img/bg-intro.jpg") no-repeat center center; */
+>>>>>>> 421097c6181a47c8466064ed77aed7a8f03b6b0f
 	background-size: cover;
 	color: #000000;
 	text-transform: uppercase;
