@@ -7,8 +7,18 @@
  */
 
 ?>
+BATATA
+<?php get_footer();?>
 
-<footer></footer>
+
+
+  <div class="footer-container">
+    <h2>Endereço: Escola de Magia e Bruxaria de Hogwarts</h2>
+    <h2>Sala do Diretor</h2>
+    <p>Facebook> Minerva MacGonagall</p>
+    <p>Twitter: @minervamc</p>
+  </div>
+
 <?php wp_footer(); ?>
 
 </body>
