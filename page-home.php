@@ -9,13 +9,13 @@ get_header(); //chama o header//
 <section> 
           <div class="intro slide">
              <div class = "img-container">
-                   <img src="/img/slide/hamburguer.jpg" alt="hamburguer">
+                   <img src="img/slide/hamburguer.jpg" alt="hamburguer">
              </div>
              <div class = "img-container">
-                <img src="/img/slide/costelinha.jpg" alt="costelinha">
+                <img src="img/slide/costelinha.jpg" alt="costelinha">
              </div>
              <div class = "img-container">
-                <img src="/img/slide/cebola.jpg" alt="cebola">
+                <img src="img/slide/cebola.jpg" alt="cebola">
              </div>
              <div class = "img-container">
                 <img src="img/slide/carne.jpg" alt="carne">

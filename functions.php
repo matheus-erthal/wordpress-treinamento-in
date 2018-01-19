@@ -6,7 +6,7 @@ function cadastrando_post_type_receitas() {
 
     $nomeSingular = 'Receita';
     $nomePlural = 'Receitas';
-    $deion = 'Receita dos pratos';
+    $deion = 'Receitas dos pratos';
 
     $labels = array(
         'name' => $nomePlural,
@@ -30,7 +30,7 @@ function cadastrando_post_type_receitas() {
     );
 
 
-    register_post_type( 'receitas', $args);    
+    register_post_type( 'receitas', $args);
 }
 
 add_action('init', 'cadastrando_post_type_receitas');
@@ -63,10 +63,11 @@ function cadastrando_post_type_lojas() {
     );
 
 
-    register_post_type( 'lojas', $args);    
+    register_post_type( 'lojas', $args);
 }
 
 add_action('init', 'cadastrando_post_type_lojas');
+
 
 function cadastrando_post_type_sobre() {
 
@@ -77,7 +78,7 @@ function cadastrando_post_type_sobre() {
     $labels = array(
         'name' => $nomePlural,
         'name_singular' => $nomeSingular,
-        'add_new_item' => 'Modificar conteúdo' . $nomeSingular,
+        'add_new_item' => 'Adicionar nova ' . $nomeSingular,
         'edit_item' => 'Editar ' . $nomeSingular
     );
 
@@ -96,21 +97,23 @@ function cadastrando_post_type_sobre() {
     );
 
 
-    register_post_type( 'sobre', $args);    
+    register_post_type( 'sobre', $args);
 }
 
-add_action('init', 'cadastrando_post_type_contato');
+add_action('init', 'cadastrando_post_type_sobre');
 
-function cadastrando_post_type_contato() {
+add_action('init', 'cadastrando_post_type_receitas');
+
+function cadastrando_post_type_contatos() {
 
     $nomeSingular = 'Contato';
     $nomePlural = 'Contatos';
-    $deion = 'Contatos';
+    $deion = 'Contato da InBurguer';
 
     $labels = array(
         'name' => $nomePlural,
         'name_singular' => $nomeSingular,
-        'add_new_item' => 'Modificar conteúdo' . $nomeSingular,
+        'add_new_item' => 'Adicionar nova ' . $nomeSingular,
         'edit_item' => 'Editar ' . $nomeSingular
     );
 
@@ -124,13 +127,12 @@ function cadastrando_post_type_contato() {
         'labels' => $labels,
         'deion' => $descricao,
         'public' => true,
-        'menu_icon' => 'dashicons-admin-comments',
+        'menu_icon' => 'dashicons-phone',
         'supports' => $supports
     );
 
 
-    register_post_type( 'contato', $args);    
+    register_post_type( 'contatos', $args);
 }
 
-add_action('init', 'cadastrando_post_type_contato');
-
+add_action('init', 'cadastrando_post_type_contatos');
