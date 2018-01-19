@@ -1,9 +1,67 @@
 /*
-Theme Name: Meu tema
-Author: Amanco e Bruna
-Description: Tema utilizado para o treinamento da IN Junior
+Theme Name: Restaurante Sabor Brasil
+Author: Bárbara, Raul e Thales
+Description: Tema encomendado pelo Restaurante Sabor Brasil
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: meu-tema
+Text Domain: Restaurante Sabor Brasil
 */
+
+*,h1,h2,h3,h4,h5,h6,p,ul,img,div,li {
+	margin:0;
+	padding: 0;
+	}
+
+
+.footer{
+  background-color: #000000;
+
+}
+.footer-container{
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #fff;
+}
+
+.footer-sobre{
+  background-color: #dddddd;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 5px 0;
+}
+
+.footer-container-img {
+  width: 200px;
+  float: right;
+}
+
+.footer-container-img::after, .footer-container-img::before{
+  	content:"";
+  	display: block;
+  	clear: both;
+}
+
+.barra {
+  color: #ababab;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 1.125em;
+  padding: 10px;
+  width: 200px;
+}
+
+.botao-barra {
+  padding: 12px;
+  height: 45px;
+  background-color: white;
+  border: none;
+  color: #272727;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 1.125em;
+}
