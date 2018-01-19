@@ -7,3 +7,156 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: meu-tema
 */
+* {
+	margin:0;
+	padding: 0;
+	}
+
+
+/* header */
+
+header{
+	background-color: #780202;
+	border-top: 5px solid #da8a1b;
+	border-bottom: 5px solid #da8a1b;
+  height: 145px;
+  font-family: 'Quicksand', sans-serif;
+  /* position: fixed;
+  width: 100%;
+  z-index: 99; */
+}
+
+
+.titulo-menu a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.titulo-menu {
+	float: left;
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.menu-container {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 20px;
+	height: inherit;
+}
+
+.menu-container::after, .menu-container::before{ /* cria dois pseudo-elementos, um antes e um depois do menu-container para ter o clear antes e depois do float */
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.menu-nav{
+	float: right;
+	display: inline-block
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
+
+.menu-nav li{
+	display: inline-block; /* block: um elemento abaixo do outro (cada elemento ocupa uma linha diferente) | inline-block: todos os elementos permanecem em uma só linha */
+}
+.menu li a::after{ /* desenha o "traço" após o h1 usando pseudo-elemento*/
+  content: "";
+  color: white;
+  display:block;
+  width: 0;
+  height: 4px;
+  background: #da8a1b;
+  margin: 5px auto;
+  transition: 0.5s;
+}/*
+  .menu-nav li:hover{
+  	border-bottom: 1px solid yellow;
+  }*/
+.menu-nav li a:hover::after{
+	width: 100%;
+}
+
+.menu-nav li a{
+	padding: 15px;
+	display: block;
+}
+
+/* footer */
+
+footer{
+  background-color: #790202;
+  margin: 0px;
+  padding: 0px;
+  border-top: 5px solid #da8a1b;
+  color: white;
+  border-bottom: 5px solid #da8a1b;
+
+}
+
+footer h2{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 20px
+}
+
+footer p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+.footer-container{
+  margin: 0px auto;
+  max-width: 960px;
+  max-height: 160px;
+}
+
+.contato{
+  display: inline-block;
+  margin: 0;
+  width: 330px;
+  float: left;
+}
+
+.rede_soc{
+  float: right;
+  width: 330px
+  margin: 0;
+  text-align: right;
+}
+
+.brasao img{
+  position: relative;
+  top: -100px;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.icones-sociais li {
+  display: inline-block;
+}
+
+.icones-sociais img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: 17px;
+}
