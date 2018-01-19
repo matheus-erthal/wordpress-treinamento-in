@@ -1,6 +1,9 @@
 <?php
 
+wp_enqueue_style('style', get_stylesheet_uri());
+
 add_theme_support( 'post-thumbnails' );
+
 
 function cadastrando_post_type_notas() {
 

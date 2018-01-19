@@ -1,9 +1,68 @@
 /*
 Theme Name: Meu tema
-Author: Amanco e Bruna
+Author: Jenniffer, Mariana e Rafael 
 Description: Tema utilizado para o treinamento da IN Junior
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: meu-tema
 */
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 SVGs Fallbacks
+19.0 Media Queries
+20.0 Print
+--------------------------------------------------------------*/
+.menu{
+	background: rgb(50,59,186);
+	color: white;
+}
+
+.menu-nav li{
+	list-style: none;
+}
+
+.menu-nave li a{
+	color: white;
+	text-decoration: none;
+}
+
+.quem-somos{
+	background: #BDCEFA;
+}
+
+.proposito{
+	background: #BDCEFA;
+}
+
+.footer{
+	background: rgb(50,59,186);
+	color: white;
+}
+
