@@ -11,7 +11,7 @@ get_header();
 <div class="teste">
 
 <section class="descricao">
-	<h3>IN Junior soluções em TI</h3>
+	<h2>IN Junior soluções em TI</h2>
 	<p>Desenvolvimento de Sites, Sistemas Web e Aplicativos para pequenas e médias empresas. Nunca foi tão fácil encontrar soluções em TI para alavancar o seu negócio.</p>
 	<img src="img/lobo_foto.png" alt="foto do lobo da IN">
 </section>

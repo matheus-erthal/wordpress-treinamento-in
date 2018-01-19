@@ -51,7 +51,7 @@ Text Domain: meu-tema
 .menu{
 	background: #0066cc;
 	color: white;
-	height: 80px;
+	height: 12vh;
 	width: 100%;
 	position: fixed;
 	border-top: 2px solid black;
@@ -65,7 +65,7 @@ Text Domain: meu-tema
 }
 
 .teste{
-	padding-top: 80px;
+	padding-top: 12vh;
 }
 
 .menu img{
@@ -94,12 +94,17 @@ Text Domain: meu-tema
 
 .descricao{
 	max-width: 960px;
-	height: 160px;
-	padding: 20px;
+	height: 88vh;
+	/*padding: 30vh;*/
+}
+
+.descricao h2{
+	/*padding: 3vh;*/
 }
 
 .descricao p{
 	max-width: 460px;
+	/*line-height: 5vh;*/
 }
 
 .descricao img{
