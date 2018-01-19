@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 /*template name: home template*/
 
@@ -39,3 +40,13 @@ get_header();
 </section>
 
 <?php get_footer();?>
+=======
+/*template name:home- template*/
+	get_header();
+
+?>
+<h1>hahahahahh</h1>
+
+
+<?php get_footer(); ?>
+>>>>>>> ea5faa6481d66c7cdd4cfc9b46f721138cd3d7c8
