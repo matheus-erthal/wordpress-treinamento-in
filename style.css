@@ -1,9 +1,193 @@
-/*
-Theme Name: treINamenTWO
-Author: Letícia, Marcelo, Pedro
-Description: Por favor, me salvem
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: meu-tema
-*/
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* HOME */ 
+
+.top {
+	background: #000000;
+	text-align: center;
+	opacity: 0.2;
+	position: fixed;
+	width: 100%;
+}
+
+.top a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.top li {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.top-container {
+	max-width: 920px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.top-container::after, .top-container::before {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.menu-nav {
+	float: right;
+}
+
+.menu-nav li{
+	display: inline-block;
+}
+
+.menu-nav li a {
+	padding: 15px;
+	display: block;
+}
+
+.intro {
+	padding: 150px 0px;
+	text-align: center;
+/*	background: url("../img/bg-intro.jpg") no-repeat center center; */
+	background-size: cover;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.principal{
+	background: #2A2742;
+	padding: 40px 200px;
+}
+
+.quem-somos h2 {
+	color: white;
+	padding-bottom: 35px;
+}
+
+.quem-somos p{
+	color: white;
+	text-align: left;
+	max-width: 500px;
+}
+
+.quem-somos img{
+	float: right;
+}
+
+.projetos {
+	background: #E5E6EB;
+	padding: 40px 200px;
+}
+
+.projects h2{
+	color: black;
+	padding-bottom: 35px;
+}
+
+
+.projects p {
+	color: black;
+	text-align: right;
+}
+
+.proposito {
+	padding: 40px 200px;
+	background: /*	background: url("../img/bg-intro.jpg") no-repeat center center; */
+	background-size: cover;
+}
+
+.proposito h2 {
+	color: black;
+	padding-bottom: 35px;
+
+}
+
+.proposito p {
+	color: black;
+}
+
+.contato {
+	background: #E5E6EB;
+	padding: 40px 200px;
+}
+
+.contato h2 {
+	padding-bottom: 35px;
+}
+
+.contato form {
+	display: inline-block;
+}
+
+.contato form input {
+	margin: 10px auto;
+	background: #ffffff;
+	font-size: 1em;
+	font-style: italic;
+	width: 250px;
+	padding: 10px;
+}
+
+.contato form button {
+	width: 270px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 200;
+	font-size: 1em;
+	margin: 10px auto;
+	padding: 10px;
+	background: #B6B7BD;
+}
+
+.contato form button a {
+	text-decoration: none;
+	color: #000000;
+	padding: 0 100px;
+}
+
+.contato img {
+	float: right;
+}
+
+.contato p {
+	float: right;
+}
+
+.footer {
+	padding: 45px;
+	background: #2A2742;
+	color: white;
+}
+
+.footer-container {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.footer-container p {
+	float: right;
+	text-align: left;
+}
+
+.footer a {
+	float: left;
+	margin: auto;
+}
+.footer i {
+	font-size: 1.4em;
+	color: white;
+	padding: 0px 10px;
+}
+
+.footer i:hover {
+	color: white;
+}
+
