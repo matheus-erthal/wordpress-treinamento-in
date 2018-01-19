@@ -95,12 +95,18 @@ Text Domain: meu-tema
 .descricao{
 	height: 88vh;
 	max-width: 960px;
-	padding: 30px;
+	overflow: auto;
+}
+
+.descricao-container{
+	padding-top: 80px;
 }
 
 .descricao-texto{
 	max-width: 460px;
-	padding: 40px;
+	float: left;
+	padding-left: 60px;
+	padding-top: 40px;
 }
 
 .descricao-texto h2{
@@ -110,7 +116,9 @@ Text Domain: meu-tema
 
 .descricao-texto p{
 	max-width: 460px;
-	line-height: 25px;
+	line-height: 30px;
+	font-size: 1.25em;
+	text-align: center;
 }
 
 .descricao img{
