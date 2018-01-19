@@ -22,7 +22,7 @@ Text Domain: meu-tema
 .top {
 	background: #000000;
 	text-align: center;
-	opacity: 0.2	;
+	opacity: 0.2;
 	position: fixed;
 	width: 100%;
 }
@@ -65,7 +65,7 @@ Text Domain: meu-tema
 .intro {
 	padding: 150px 0px;
 	text-align: center;
-/*	background: url("../img/bg-intro.jpg") no-repeat center center; */
+	background: url("Projeto/working-1200x675.jpg") no-repeat center center; */
 	background-size: cover;
 	color: #000000;
 	text-transform: uppercase;
