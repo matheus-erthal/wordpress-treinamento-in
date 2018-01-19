@@ -19,11 +19,18 @@ Text Domain: meu-tema
 
 /* HOME */ 
 
+section {
+}
+
+body {
+	height: 100%;
+}
+
 .top {
 	background: #221E46;
 	text-align: center;
-	position: fixed;
 	width: 100%;
+	height: 13vh;
 }
 
 .top a {
@@ -39,7 +46,7 @@ Text Domain: meu-tema
 .top-container {
 	max-width: 920px;
 	padding: 15px;
-	margin: 0 auto;
+	margin: auto auto;
 }
 
 .top-container::after, .top-container::before {
@@ -63,11 +70,17 @@ Text Domain: meu-tema
 
 .intro {
 	padding: 150px 0px;
-	text-align: center;
-/*	background: url("../img/bg-intro.jpg") no-repeat center center; */
+	background: url("img/background-intro.png") no-repeat center center;
 	background-size: cover;
-	color: #000000;
+}
+
+.intro p {
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: center;
 	text-transform: uppercase;
+	margin: 19vh;
 }
 
 .principal{
@@ -78,15 +91,22 @@ Text Domain: meu-tema
 .quem-somos h2 {
 	color: white;
 	padding-bottom: 35px;
+	max-width: 200px;
+	text-align: left;
 }
 
 .quem-somos p{
 	color: white;
 	text-align: left;
 	max-width: 500px;
+	line-height: 1.5em;
 }
 
-.quem-somos img{
+.wolf img{
+	max-width: 600px;
+	max-height: 50vh;
+	width: auto;
+	height: auto;
 	float: right;
 }
 
@@ -104,11 +124,11 @@ Text Domain: meu-tema
 .projects p {
 	color: black;
 	text-align: right;
+	line-height: 1.5em;
 }
 
 .proposito {
 	padding: 40px 200px;
-/*	background: url("../img/bg-intro.jpg") no-repeat center center; */
 	background-size: cover;
 }
 
@@ -120,6 +140,7 @@ Text Domain: meu-tema
 
 .proposito p {
 	color: black;
+	line-height: 1.5em;
 }
 
 .contato {
@@ -168,6 +189,7 @@ Text Domain: meu-tema
 
 .contato p {
 	float: right;
+	line-height: 1.5em;
 }
 
 .footer {
@@ -184,6 +206,7 @@ Text Domain: meu-tema
 .footer-container p {
 	float: right;
 	text-align: left;
+	line-height: 1.5em;
 }
 
 .footer a {
@@ -199,4 +222,3 @@ Text Domain: meu-tema
 .footer i:hover {
 	color: gray;
 }
-
