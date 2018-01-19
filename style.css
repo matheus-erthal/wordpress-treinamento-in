@@ -49,9 +49,9 @@ Text Domain: meu-tema
 /* menu */
 
 .menu{
+	height: 12vh;
 	background: #0066cc;
 	color: white;
-	height: 12vh;
 	width: 100%;
 	position: fixed;
 	border-top: 2px solid black;
@@ -93,18 +93,24 @@ Text Domain: meu-tema
 /* descricao */
 
 .descricao{
-	max-width: 960px;
 	height: 88vh;
-	/*padding: 30vh;*/
+	max-width: 960px;
+	padding: 30px;
 }
 
-.descricao h2{
-	/*padding: 3vh;*/
-}
-
-.descricao p{
+.descricao-texto{
 	max-width: 460px;
-	/*line-height: 5vh;*/
+	padding: 40px;
+}
+
+.descricao-texto h2{
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.descricao-texto p{
+	max-width: 460px;
+	line-height: 25px;
 }
 
 .descricao img{
