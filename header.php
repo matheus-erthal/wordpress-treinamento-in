@@ -32,7 +32,11 @@
             <h2><a href="<?= get_site_url(); ?>/index.php/quem-somos">Quem Somos</a></h2>
         </div>
     <div class="cabecalho-item">
+<<<<<<< HEAD
         <a href="<?= get_site_url(); ?>/index.php "><img src="<?= get_template_directory_uri(); ?>/assets/img/logo-restaurante.png"></a>
+=======
+        <img src="<?= get_template_directory_uri(); ?>/assets/img/logo-restaurante.png">
+>>>>>>> 2a20a284c3831d09b2cb111cc4e8ee834d20d822
     </div>
          <div class="cabecalho-item">
             <h2><a href="<?= get_site_url(); ?>/index.php/blog">Nosso Blog</a></h2>
