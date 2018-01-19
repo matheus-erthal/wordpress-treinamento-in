@@ -8,8 +8,20 @@
 
 ?>
 
-<footer></footer>
 <?php wp_footer(); ?>
+
+<footer class="footer">
+    <div class="footer-container">
+        <?php get_search_form(); ?>
+        <div class="footer-container-img">
+        </div>
+    </div>
+    <div class="footer-sobre">
+    <p>Layout desenvolvido pela equipe 1 Ⓒ 2018</p>
+    </div>
+
+</footer>
+
 
 </body>
 </html>

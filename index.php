@@ -9,15 +9,39 @@
 
 get_header(); ?>
 
-<h1>Grupo 1</h1>
+<?php if(have_posts()):
+    while(have_posts()): the_post(); ?>
+    <div class="postagem">
+        <h2>
+            <a href=<?php "the_permalink()" ?>>
+                <?php the_title()?>
+        </a></h2>
+        <p>
+            <?php the_content() ?>
+        </p>
+    </div>   
+<?php endwhile;
+endif; ?>
 
-<?php if (have_posts()): ?>
-    <?php while(have_posts()): ?>
-        <?php the_post(); ?>
-        <h2><?php the_title(); ?></h2>
+
+ 
+
+<!--
+<h1>Receitas</h1>
+
+<?php // The Query
+$nossa_query = new WP_Query( array( 'post_type' => 'receitas') ); 
+?>
+
+<?php if ($nossa_query->have_posts()): ?>
+    <?php while($nossa_query->have_posts()): ?>
+        <?php $nossa_query->the_post(); ?>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <p><?php the_cotent() ?>
+        
     <?php endwhile; ?>
 <?php endif; ?>
-
+-->
 
 
 
