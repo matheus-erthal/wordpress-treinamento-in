@@ -92,7 +92,7 @@ function cadastrando_post_type_sobre() {
         'labels' => $labels,
         'deion' => $descricao,
         'public' => true,
-        'menu_icon' => 'dashicons-location',
+        'menu_icon' => 'dashicons-admin-comments',
         'supports' => $supports
     );
 
@@ -127,7 +127,7 @@ function cadastrando_post_type_contatos() {
         'labels' => $labels,
         'deion' => $descricao,
         'public' => true,
-        'menu_icon' => 'dashicons-location',
+        'menu_icon' => 'dashicons-phone',
         'supports' => $supports
     );
 
