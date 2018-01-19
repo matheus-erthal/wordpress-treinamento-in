@@ -9,21 +9,13 @@
 
 get_header(); ?>
 
-<?php // The Query
+<h1 style="text-align: center">Site do Amanco</h1>
 
-
-$nossa_query = new WP_Query( array( 'post_type' => notas) ); 
-?>
-
-<?php if ($nossa_query->have_posts()): ?>
-    <?php while($nossa_query->have_posts()): ?>
-        <?php $nossa_query->the_post(); ?>
-        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        
-    <?php endwhile; ?>
-<?php endif; ?>
-
-
+<?php if(have_posts()): 
+    while(have_posts()): the_post(); ?>
+        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+<?php endwhile;
+    endif; ?>
 
 
 <?php get_footer();
