@@ -99,5 +99,38 @@ function cadastrando_post_type_sobre() {
     register_post_type( 'sobre', $args);    
 }
 
-add_action('init', 'cadastrando_post_type_sobre');
+add_action('init', 'cadastrando_post_type_contato');
+
+function cadastrando_post_type_contato() {
+
+    $nomeSingular = 'Contato';
+    $nomePlural = 'Contatos';
+    $deion = 'Contatos';
+
+    $labels = array(
+        'name' => $nomePlural,
+        'name_singular' => $nomeSingular,
+        'add_new_item' => 'Modificar conteúdo' . $nomeSingular,
+        'edit_item' => 'Editar ' . $nomeSingular
+    );
+
+    $supports = array(
+        'title',
+        'editor',
+        'thumbnail'
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'deion' => $descricao,
+        'public' => true,
+        'menu_icon' => 'dashicons-admin-comments',
+        'supports' => $supports
+    );
+
+
+    register_post_type( 'contato', $args);    
+}
+
+add_action('init', 'cadastrando_post_type_contato');
 

@@ -8,7 +8,14 @@
 
 ?>
 
-<footer></footer>
+<footer class="footer">
+      <div class="footer-container">
+        <p>©INBurgerBrasil</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
 <?php wp_footer(); ?> <!-- necessario para funcionar o wordpress-->
 
 </body>
