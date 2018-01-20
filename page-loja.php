@@ -3,11 +3,12 @@
 get_header();
 
 ?>
-<h2> Página de Lojas</h2>
 
 <?php
+
 $nova_loja = new WP_Query (array("post_type"  => lojas));
 ?>
+
 <?php if($nova_loja->have_posts()): ?> <!--pega todos os posts-->
     <?php while($nova_loja->have_posts()): ?>
         <?php $nova_loja->the_post(); ?> <!--puxa o post-->
