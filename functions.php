@@ -102,7 +102,6 @@ function cadastrando_post_type_sobre() {
 
 add_action('init', 'cadastrando_post_type_sobre');
 
-add_action('init', 'cadastrando_post_type_receitas');
 
 function cadastrando_post_type_contatos() {
 

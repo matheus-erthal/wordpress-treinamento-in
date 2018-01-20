@@ -6,7 +6,8 @@
  * @version 1.0
  */
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html>
     <head>
     <meta charset="utf-8">

@@ -11,6 +11,7 @@
 <footer class="footer">
       <div class="footer-container">
         <p>©INBurgerBrasil</p>
+        <img src = <?= get_template_directory_uri(); ?>/img/logooficial.png" alt="InBurguer">
       </div>
     </footer>
   </body>
