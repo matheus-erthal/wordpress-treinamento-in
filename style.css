@@ -46,6 +46,13 @@ Text Domain: meu-tema
 	padding: 0;
 }
 
+/* funcoes */
+
+.aparecer{
+	opacity: 1;
+	transition: 1.0s;
+}
+
 /* menu */
 
 .menu{
@@ -99,6 +106,8 @@ Text Domain: meu-tema
 	max-width: 960px;
 	overflow: auto;
 	margin: 0 auto;
+	/*opacity: 0;
+	transition: 1.0s;*/
 }
 
 .descricao-container{
