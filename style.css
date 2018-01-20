@@ -56,6 +56,7 @@ Text Domain: meu-tema
 	position: fixed;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+
 }
 
 
@@ -171,5 +172,60 @@ Text Domain: meu-tema
 .footer{
 	background: #0066cc;
 	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+.footer-container{
+	max-width: 960px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.footer-esquerda{
+	max-width: 360px;
+	text-align: center;
+	line-height: 26px;
+
+
+	display: inline-block;
+}
+
+.footer-meio{
+	text-align: center;
+	line-height: 26px;
+
+	display: inline-block;
+	margin: 0 68px;
+}
+
+
+.footer-meio li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 8px;
+	
+}
+
+.footer-meio li a{
+	font-size: 1.25em;
+	color: black;
+	transition: 0.8s;
+}
+
+.footer-meio li a:hover{
+	font-size: 1.25em;
+	color: white;
+	transition: 0.8s;
+}
+
+.footer img{
+	width: 100px;
+
+	float: right;
+	display: inline-block;
 }
 

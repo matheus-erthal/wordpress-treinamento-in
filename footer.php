@@ -11,22 +11,27 @@
 <footer class="footer">
 
 	<div class="footer-container">
-	<p>Rua Passo da Pátria, 156 - Instituto de Computação
-	<br>
-	sala 115-B
-	<br>
-	Niterói RJ</p>
+		<div class="footer-esquerda">
 
-		<div class="meio">
-			<a href="#"><img src="img/facebook.png" alt ="logo do facebook"></a>
-			<a href="#"><img src="img/linkedin.png" alt="logo do linkedin"></a>
-			<a href="#"><img src="img/instagram.png" alt="logo do instagram"></a>
+			<p>Rua Passo da Pátria, 156 - Instituto de Computação
+			<br>
+			sala 115-B
+			<br>
+			Niterói RJ</p>
+		</div>
+		<div class="footer-meio">
+			<ul>
+				<li><a href="https://www.facebook.com/injunioruff"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/in-junior"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.instagram.com/injunioruff"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>	
+
 			<p>copyright
 			<br>
 			contato@injunior.com.br</p>	
 		</div>
 
-	<img src="img/logo-branca-in.png" alt="logo branca da In Junior">
+		<img src="<?= get_template_directory_uri(); ?>/img/logo-branca-in.png" alt="logo branca da In Junior">
 	
 	</div>
 
