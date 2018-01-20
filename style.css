@@ -285,6 +285,8 @@ input {
 
 .notas{
 	margin-top: 140px;
+	margin-bottom: 300px;
+
 }
 
 .notas-container::after, .notas-container::before{
