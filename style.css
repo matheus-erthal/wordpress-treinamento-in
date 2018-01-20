@@ -17,7 +17,7 @@ Text Domain: meu-tema
 	font-family: 'Raleway', sans-serif;
 }
 
-/* HOME */ 
+/* HOME */
 
 section {
 	height: 100vh;
@@ -59,6 +59,12 @@ section {
 	clear: both;
 }
 
+.hiddentop{
+  display: none;
+  position: sticky;
+  opacity: 0.8s;
+}
+
 .menu-nav {
 	float: right;
 }
@@ -89,7 +95,7 @@ section {
 	margin: 50vh;
 }
 
-/* SECTION QUEM SOMOS */ 
+/* SECTION QUEM SOMOS */
 
 .principal{
 	background: #2A2742;
