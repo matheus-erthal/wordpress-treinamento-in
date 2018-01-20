@@ -4,7 +4,28 @@
 get_header();
 
 ?>
-<h2> Pagina de Receitas </h2>
+    <section>
+        <div class="receitas">
+            <img src="<?= get_template_directory_uri(); ?>/img/receita1.jpg">
+            <p>receita aqui</p>
+        </div>
+        <div>
+            <img src="<?= get_template_directory_uri(); ?>/img/receita2.jpg">
+            <p>receita aqui</p>
+        </div>
+        <div>
+            <img src="<?= get_template_directory_uri(); ?>/img/receita3.jpg">
+            <p>receita aqui</p>
+        </div>
+        <div>
+           <img src="<?= get_template_directory_uri(); ?>/img/receita4.jpg">
+           <p>receita aqui</p>
+       </div>
+       <div>
+            <img src="<?= get_template_directory_uri(); ?>/img/receita5.jpg">
+            <p>receita aqui</p>
+        </div>
+    </section> 
 
 <?php
 $nova_receita = new WP_Query (array("post_type" => receitas)); //determina dois posts na pagina

@@ -22,13 +22,13 @@
   <body>
     <header class="menu">
         <div class="menu-container">
-          <a class="menu-logo" href="page-home.php"><img src="<?= get_template_directory_uri(); ?>/img/logooficial.png" alt="InBurguer"></a>
+          <a class="menu-logo" href="http://localhost/wordpress/"><img src="<?= get_template_directory_uri(); ?>/img/logooficial.png" alt="InBurguer"></a>
           <nav class="menu-nav">
             <ul>
               <li><a href="http://localhost/wordpress/?page_id=39">Sobre</a></li>
-              <li><a href="page-receita.php">Receitas</a></li>
-              <li><a href="page-loja.php">Onde Estamos</a></li>
-              <li><a href="page-contato.php">Contato</a></li>
+              <li><a href="http://localhost/wordpress/?page_id=10">Receitas</a></li>
+              <li><a href="http://localhost/wordpress/?page_id=32 ">Onde Estamos</a></li>
+              <li><a href="http://localhost/wordpress/?page_id=44">Contato</a></li>
             </ul>
           </nav>
         </div>

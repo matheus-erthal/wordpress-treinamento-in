@@ -18,9 +18,6 @@ get_header(); ?>
 		<img src="<?php the_field('ingredientes'); ?>" alt = "Receitas">
 <?php endwhile; ?>
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> c40311a6bf3d59a0ae8e55071c8dfcb29d56a58d
 <?php get_footer();
