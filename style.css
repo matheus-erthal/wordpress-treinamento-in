@@ -50,7 +50,6 @@ section {
 
 .top-container img{
 	float: left;
-
 }
 
 .top-container::after, .top-container::before {
@@ -183,6 +182,16 @@ section {
 }
 
 .fale-conosco form input {
+	margin: 10px auto;
+	background: #ffffff;
+	font-size: 1em;
+	font-style: italic;
+	width: 250px;
+	padding: 10px;
+}
+
+
+.fale-conosco form textarea {
 	margin: 10px auto;
 	background: #ffffff;
 	font-size: 1em;
