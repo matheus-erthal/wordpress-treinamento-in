@@ -1,5 +1,7 @@
 <?php
 
+wp_enqueue_style( 'style', get_stylesheet_uri() );
+
 function cadastrando_post_type_notas() {
     
         $nomeSingular = 'Nota';
