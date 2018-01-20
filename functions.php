@@ -1,7 +1,10 @@
 <?php
 
-wp_enqueue_style('style', get_stylesheet_uri());
 add_theme_support( 'post-thumbnails' );
+wp_enqueue_script( 'script', get_template_directory_uri() . '/script.js', array ( 'jquery' ));
+
+wp_enqueue_style('style', get_stylesheet_uri());
+
 
 function cadastrando_post_type_receitas() {
     $nomeSingular = 'Receita';
