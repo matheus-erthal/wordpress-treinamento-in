@@ -6,7 +6,9 @@ get_header();
 
 <?php
 
+
 $nova_loja = new WP_Query (array("post_type"  => lojas));
+
 ?>
 
 <?php if($nova_loja->have_posts()): ?> <!--pega todos os posts-->

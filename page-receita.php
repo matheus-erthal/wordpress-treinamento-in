@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /* Template Name: Receita Template*/
 get_header();
@@ -18,5 +19,6 @@ $nova_receita = new WP_Query (array("post_type" => receitas)); //determina dois 
 
     <?php endwhile; ?>
 <?php endif; ?>
+
 
 <?php get_footer(); ?>
