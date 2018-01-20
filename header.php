@@ -16,14 +16,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 	
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
-	<link rel="jquery" type="text/javascript" href="<?= get_template_directory_uri(); ?>/JavaScript/jquery-3.2.1.min.js">
-	<link rel="javascript" type="text/javascript" href="<?= get_template_directory_uri(); ?>/JavaScript/behavior.js">
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/content.js"></script>
+	<script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/behavior.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
 <?php wp_head(); ?>
 </head>
 
 <body>
+

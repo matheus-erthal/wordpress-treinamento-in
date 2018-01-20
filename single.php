@@ -11,10 +11,15 @@
  */
 
 get_header(); ?>
-	
-<?php while(have_posts()) : the_post(); ?>
-	<h2><?php the_title(); ?></h2>
-	<p><?php the_content(); ?></p>
-<?php endwhile; ?>
+
+<?php if have_posts()) : the_post(); ?>
+	<?php while(have_posts()) : the_post(); ?>
+		<h2><?php the_title(); ?></h2>
+		<p><?php the_content(); ?></p>
+		<img src="<?php the_field('imagem_1'); ?>">
+		<img src="<?php the_field('imagem_2'); ?>">
+		<img src="<?php the_field('imagem_3'); ?>">
+	<?php endwhile; ?>
+<?php endif; ?>
 
 <?php get_footer();

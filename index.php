@@ -45,9 +45,9 @@ get_header(); ?>
 		<div class="quem-somos">
 			<h2> Quem Somos </h2>
 			<div class="wolf"> 
-			<img src="<?= get_template_directory_uri(); ?>/img/lobo.png"alt="Lobo">
+			<img src="<?= get_template_directory_uri(); ?>/img/lobo.png" alt="Lobo">
 			</div>
-				<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in metus eu lorem vulputate consectetur. Donec nec ultrices ante. Phasellus viverra orci in est suscipit, sed volutpat risus feugiat. Sed bibendum ut neque dapibus vestibulum. Aliquam erat volutpat. Duis pulvinar nunc quis auctor rhoncus. </p> <br>
+				<!-- <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in metus eu lorem vulputate consectetur. Donec nec ultrices ante. Phasellus viverra orci in est suscipit, sed volutpat risus feugiat. Sed bibendum ut neque dapibus vestibulum. Aliquam erat volutpat. Duis pulvinar nunc quis auctor rhoncus. </p> <br> -->
 				<p> Mauris ac eros sit amet odio maximus mollis nec in tortor. Ut imperdiet fermentum malesuada. Vivamus a justo urna. Donec sit amet scelerisque mauris. Sed vitae vulputate velit, et rutrum mauris. Integer ac sagittis dolor, eget vehicula tortor. Phasellus rutrum sodales rhoncus. Suspendisse id diam diam. In hac habitasse platea dictumst. Morbi imperdiet tellus ut sapien bibendum, id sagittis odio aliquet. </p>				<p>Mauris ac eros sit amet odio maximus mollis nec in tortor. Ut imperdiet fermentum malesuada. Vivamus a justo urna. Donec sit amet scelerisque mauris. Sed vitae vulputate velit, et rutrum mauris. Integer ac sagittis dolor, eget vehicula tortor. Phasellus rutrum sodales rhoncus. Suspendisse id diam diam. In hac habitasse platea dictumst. Morbi imperdiet tellus ut sapien bibendum, id sagittis odio aliquet. </p>
 				 </div> 
 		</div>
@@ -56,10 +56,32 @@ get_header(); ?>
 	<section class="projetos">
 		<div class="projects">
 			<h2> Projetos </h2>
-			<div class="slider"> 
-				<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in metus eu lorem vulputate consectetur. Donec nec ultrices ante. Phasellus viverra orci in est suscipit, sed volutpat risus feugiat. Sed bibendum ut neque dapibus vestibulum. Aliquam erat volutpat. Duis pulvinar nunc quis auctor rhoncus. </p> 
-				<p> Mauris ac eros sit amet odio maximus mollis nec in tortor. Ut imperdiet fermentum malesuada. Vivamus a justo urna. Donec sit amet scelerisque mauris. Sed vitae vulputate velit, et rutrum mauris. Integer ac sagittis dolor, eget vehicula tortor. Phasellus rutrum sodales rhoncus. Suspendisse id diam diam. In hac habitasse platea dictumst. Morbi imperdiet tellus ut sapien bibendum, id sagittis odio aliquet. </p>
-				<img src="" alt="projeto">
+			<p>  <?php get_content(); ?> </p>
+			 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+   					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+   					<div class="carousel-item active">
+		    			<img src="<?php the_field('imagem_1'); ?>">
+   					</div>
+			    	<div class="carousel-item">
+				    	<img src="<?php the_field('imagem_2'); ?>">
+   					</div>
+   					<div class="carousel-item">
+    					<img src="<?php the_field('imagem_3'); ?>">
+   					</div>
+   				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+   				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   				<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+   				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+   				<span class="sr-only">Next</span>
+   				</a>
 			</div>
 		</div>
 	</section>
@@ -75,7 +97,7 @@ get_header(); ?>
 			<form>
 				<input type="text" placeholder="Digite seu nome"> <br>
 				<input type="text" placeholder="Digite seu e-mail"> <br>
-				<input type="pharagraph" placeholder="Escreva..."> <br>
+				<input type="text" placeholder="Escreva..."> <br>
 				<button type="submit"><a href="#">Envia</a></button>
 			</form>
 			<!--<img src="" alt="Mapa do IC-UFF"> -->
