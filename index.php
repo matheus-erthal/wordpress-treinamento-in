@@ -24,7 +24,7 @@ $nossa_query = new WP_Query( array('posts_type' => notas) );
 	<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2> </a>
 	
 	<p><?php the_content(); ?></p>
-    
+
     <?php endwhile; ?>
 <?php endif; ?>
 

@@ -39,30 +39,137 @@ Text Domain: meu-tema
 19.0 Media Queries
 20.0 Print
 --------------------------------------------------------------*/
+/* reset */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* menu */
+
 .menu{
-	background: rgb(50,59,186);
+	height: 12vh;
+	background: #0066cc;
 	color: white;
+	width: 100%;
+	position: fixed;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+
+.menu-container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.teste{
+	padding-top: 12vh;
+}
+
+.menu img{
+	width: 100px;
+	float: left;
+	padding: 5px 0;
+}
+
+.menu-nav ul{
+	float: right;
 }
 
 .menu-nav li{
 	list-style: none;
+	display: inline-block;
+	padding-top: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.menu-nave li a{
-	color: white;
+.menu-nav li a{
+	color: white; /*ou inherit*/
 	text-decoration: none;
+	padding: 8px;
 }
+
+/* descricao */
+
+.descricao{
+	height: 88vh;
+	max-width: 960px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.descricao-container{
+	padding-top: 80px;
+}
+
+.descricao-texto{
+	color: #360087;
+	max-width: 460px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.descricao-texto h2{
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.descricao-texto p{
+	max-width: 460px;
+	line-height: 30px;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.descricao img{
+	max-width: 460px;
+	float: right;
+	padding-right: 20px;
+
+}
+
+/* quem somos */
 
 .quem-somos{
 	background: #BDCEFA;
+	text-align: center;
 }
+
+.quem-somos h2{
+	color: white;
+}
+
+/* projetos */
+
+.projetos{
+	text-align: center;
+}
+
+/* proposito */
 
 .proposito{
 	background: #BDCEFA;
 }
 
+.proposito h2{
+	color: white;
+	text-align: center;
+}
+
+/* contato */
+
+.contato{
+	text-align: center;
+}
+
+/* footer */
+
 .footer{
-	background: rgb(50,59,186);
+	background: #0066cc;
 	color: white;
 }
 

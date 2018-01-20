@@ -18,6 +18,7 @@ get_header(); ?>
 	<h2> <?php the_title(); ?> </h2>
 	
 	<p> <?php the_content(); ?> </p>
+<<<<<<< HEAD
        
         <img src ="<?php the_field('imagem_1'); ?>">
         <img src ="<?php the_field('imagem_2'); ?>">
@@ -32,5 +33,9 @@ get_header(); ?>
     
     <?php endwhile; ?>
 
+=======
+	<img src="<?php the_field('aluno'); ?>">
+<?php endwhile; ?>
+>>>>>>> 55d60c21618070b93805337cce6283960d3b9c9e
 
 <?php get_footer();

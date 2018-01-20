@@ -1,19 +1,29 @@
 <?php
 
+
 /*template name: home template*/
 
 get_header();
 
 ?>
 
+
 	<?php if (have_posts()): ?>
 <?php while(have_posts()): the_post(); ?>
 
 
 
+<div class="teste">
+
+
 <section class="descricao">
-	<h2>IN Junior soluções em TI</h2>
-	<p>Desenvolvimento de Sites, Sistemas Web e Aplicativos para pequenas e médias empresas. Nunca foi tão fácil encontrar soluções em TI para alavancar o seu negócio.</p>
+	<div class="descricao-container">
+		<div class="descricao-texto">
+			<h2>IN Junior soluções em TI</h2>
+			<p>Desenvolvimento de Sites, Sistemas Web e Aplicativos para pequenas e médias empresas. Nunca foi tão fácil encontrar soluções em TI para alavancar o seu negócio.</p>
+		</div>
+		<img src="<?= get_template_directory_uri(); ?>/img/lobo_foto.png" alt="lobo da In Junior">
+	</div>
 </section>
 
 
@@ -56,11 +66,14 @@ get_header();
   </a>
 </div>
 	
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>	
+
 </section>
 
 <section class="projetos">
 	<h2>Nossos projetos</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+	<p>Ut enim ad minim veniam, quis nostrud exercitation.</p>	
 	<img src="img/projetos_foto.png" alt="foto de projetos feitos IN">
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -111,7 +124,11 @@ get_header();
 	</div>
 </section>
 
+
 <?php endwhile; ?>
 <?php endif; ?>
 
+
 <?php get_footer();?>
+</div>
+
