@@ -228,6 +228,7 @@ footer p{
 	font-weight: 700;
 	font-size: 1.125em;
 	display: none;
+	z-index: 99;
 }
 
 .back-to-top:hover{
@@ -241,7 +242,7 @@ footer p{
 
 .notas-container{
 	max-width: 960px;
-    margin: 50px auto 50px auto;
+  margin: 50px auto 50px auto;
 }
 
 input {

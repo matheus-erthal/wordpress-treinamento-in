@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('.back-to-top').fadeOut().hide();
 	console.log("batata")
      $(window).scroll(function(){
-            if ($(this).scrollTop() > 1000) {
+            if ($(this).scrollTop() > 300) {
                 $('.back-to-top').fadeIn();
             } else {
                 $('.back-to-top').fadeOut();
