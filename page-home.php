@@ -26,14 +26,10 @@ get_header();
 	</div>
 </section>
 
-
-<h2>Quem Somos</h2>
-	<img src="img/quem_somos_foto.png" alt="foto das pessoas da IN">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
 <section class="quem-somos">
-	
+  <h2>Quem Somos</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -44,16 +40,16 @@ get_header();
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="<?php the_field('imagem_1'); ?>" alt="First slide">
+      <img src="<?php the_field('imagem_1'); ?>" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php the_field('imagem_2'); ?>" alt="Second slide">
+      <img src="<?php the_field('imagem_2'); ?>" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php the_field('imagem_3'); ?>" alt="Third slide">
+      <img src="<?php the_field('imagem_3'); ?>" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php the_field('imagem_4'); ?>" alt="Fourth slide">
+      <img src="<?php the_field('imagem_4'); ?>" alt="Fourth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,7 +70,7 @@ get_header();
 <section class="projetos">
 	<h2>Nossos projetos</h2>
 	<p>Ut enim ad minim veniam, quis nostrud exercitation.</p>	
-	<img src="img/projetos_foto.png" alt="foto de projetos feitos IN">
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -85,16 +81,16 @@ get_header();
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="<?php the_field('imagem_5'); ?>" alt="First slide">
+      <img src="<?php the_field('imagem_5'); ?>" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php the_field('imagem_6'); ?>" alt="Second slide">
+      <img src="<?php the_field('imagem_6'); ?>" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php the_field('imagem_7'); ?>" alt="Third slide">
+      <img src="<?php the_field('imagem_7'); ?>" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php the_field('imagem_8'); ?>" alt="Fourth slide">
+      <img src="<?php the_field('imagem_8'); ?>" alt="Fourth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

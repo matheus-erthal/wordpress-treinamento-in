@@ -56,12 +56,18 @@ Text Domain: meu-tema
 	position: fixed;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+	position: fixed;
+	z-index: 99;
+	
+	
 }
 
 
 .menu-container{
 	max-width: 960px;
 	margin: 0 auto;
+	
+
 }
 
 .teste{
@@ -137,22 +143,40 @@ Text Domain: meu-tema
 .quem-somos{
 	background: #BDCEFA;
 	text-align: center;
+	height: 88vh;
+
 }
 
 .quem-somos h2{
 	color: white;
 }
 
+.carousel-item img{
+	max-width:500px;
+	position:relative;
+	height: 400px;
+	z-index: 1;
+	
+	
+}
+
+
 /* projetos */
 
 .projetos{
 	text-align: center;
 }
+.carousel-item img{
+	max-width:500px;
+	position:relative;
+	height: 400px;
+	z-index: 1;
 
 /* proposito */
 
 .proposito{
 	background: #BDCEFA;
+	margin-top: 10px;
 }
 
 .proposito h2{
