@@ -25,13 +25,14 @@
 
 	<script type="text/javascript" href="<?= get_template_directory_uri(); ?> js/funcionalidades.js"></script>
 
-
-<?php wp_head(); ?>
+	<?php wp_head(); ?>
 </head>
+
+<body>
 
 	<header class="menu">
 		<div class="menu-container">
-			<a class="menu-logo" href="#"><img src="<?= get_template_directory_uri(); ?>/img/logo-branca-in.png" alt="logo branca da In Junior"></a>	
+			<a class="menu-logo" href="#"><img src="img/logo-branca-in.png" alt="logo branca da In Junior"></a>	
 			<nav class="menu-nav">
 				<ul>
 					<li><a href="#">Quem somos</a></li>
@@ -43,6 +44,4 @@
 			</nav>
 		</div>
 	</header>
-	
-<body>
 

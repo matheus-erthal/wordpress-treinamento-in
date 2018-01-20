@@ -4,7 +4,6 @@ wp_enqueue_style('style', get_stylesheet_uri());
 
 add_theme_support( 'post-thumbnails' );
 
-
 function adicionar_script(){
 	wp_enqueue_script('script_funcionalidades', get_template_directory_uri() . '/js/funcionalidades.js', array('jquery'),'1.0', false);
 
@@ -13,17 +12,17 @@ function adicionar_script(){
 add_action( 'wp_enqueue_scripts', 'adicionar_script' );
 
 
-function cadastrando_post_type_notas() {
+function cadastrando_post_type_imagens() {
 
-    $nomeSingular = 'Nota';
-    $nomePlural = 'Notas';
-    $deion = 'Notas dos alunos';
+    $nomeSingular = 'Imagem';
+    $nomePlural = 'Imagens';
+    $deion = 'Carousel imagens';
 
     $labels = array(
         'name' => $nomePlural,
         'name_singular' => $nomeSingular,
         'add_new_item' => 'Adicionar nova ' . $nomeSingular,
-        'edit_item' => 'Editar ' . $nomeSingular
+        'edit_item' => 'Editar' . $nomeSingular
     );
 
     $supports = array(
@@ -41,7 +40,7 @@ function cadastrando_post_type_notas() {
     );
 
 
-    register_post_type( 'notas', $args);    
+    register_post_type( 'imagens', $args);    
 }
 
-add_action('init', 'cadastrando_post_type_notas');
+add_action('init', 'cadastrando_post_type_imagens');
