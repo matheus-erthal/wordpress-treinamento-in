@@ -285,8 +285,14 @@ input {
 
 .notas{
 	margin-top: 140px;
-	margin-bottom: 300px;
+	margin-bottom: 270px;
+}
 
+.motivacao::after, .motivacao::before{
+	content: '';
+	display: table;
+	clear: both;
+	height: 50px;
 }
 
 .notas-container::after, .notas-container::before{
@@ -326,7 +332,6 @@ input {
 	margin: 50px auto;
 	width: 960px;
 	text-align: center;
-	margin-bottom: 100px;
 	font-size: 2em;
 	font-family: 'Dancing Script', cursive;
 }
