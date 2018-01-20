@@ -1,7 +1,8 @@
 $(document).ready(function(){
+	$('.back-to-top').fadeOut().hide();
 	console.log("batata")
      $(window).scroll(function(){
-            if ($(this).scrollTop() > 500) {
+            if ($(this).scrollTop() > 1000) {
                 $('.back-to-top').fadeIn();
             } else {
                 $('.back-to-top').fadeOut();
@@ -10,8 +11,8 @@ $(document).ready(function(){
         $('.back-to-top').click(function(){
           $('html').animate({scrollTop: 0}, 500);
     })
-	
-	
+
+
     $(".calcular").click(function(){
         var nota1 = parseFloat($('#nota1').val());
         var nota2 = parseFloat($('#nota2').val());
