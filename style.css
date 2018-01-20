@@ -48,6 +48,11 @@ section {
 	margin: auto auto;
 }
 
+.top-container img{
+	float: left;
+
+}
+
 .top-container::after, .top-container::before {
 	display: table;
 	content: '';
@@ -143,6 +148,7 @@ section {
 
 .proposito {
 	padding: 40px 200px;
+	background: url("img/injunior-background.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -159,20 +165,24 @@ section {
 
 /* SECTION CONTATO */
 .contato {
-	margin: 10vh auto;
 	background: #E5E6EB;
 	padding: 40px 200px;
 }
 
-.contato h2 {
+.fale-conosco {
+	margin: 10vh auto;
+}
+
+.fale-conosco h2 {
+	text-align: center;
 	padding-bottom: 35px;
 }
 
-.contato form {
-	margin: auto auto;
+.fale-conosco form {
+	text-align: center;
 }
 
-.contato form input {
+.fale-conosco form input {
 	margin: 10px auto;
 	background: #ffffff;
 	font-size: 1em;
@@ -181,7 +191,7 @@ section {
 	padding: 10px;
 }
 
-.contato form button {
+.fale-conosco form button {
 	width: 270px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -193,19 +203,16 @@ section {
 	background: #B6B7BD;
 }
 
-.contato form button a {
+.fale-conosco form button a {
 	text-decoration: none;
 	color: #000000;
 	padding: 0 100px;
 }
 
-.contato img {
+.fale-conosco p {
+	text-align: center;
+	line-height: 1.6em;
 }
-
-.contato p {
-	line-height: 1.5em;
-}
-
 /* FOOTER */
 
 .footer {

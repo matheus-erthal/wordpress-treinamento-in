@@ -36,7 +36,6 @@ get_header(); ?>
 			</nav>
 		</div>
 	</section> 
-	
 
 	<section class="intro">
 		<p> Welcome to the IN experience </p>
@@ -71,19 +70,20 @@ get_header(); ?>
 	</section>
 
 	<section class="contato">
-		<h2> Fale conosco </h2>
-		<form>
-			<input type="text" placeholder="Digite seu nome"> <br>
-			<input type="text" placeholder="Digite seu e-mail"> <br>
-			<input type="text" placeholder="Escreva..."> <br>
-			<button type="submit"><a href="#">Envia</a></button>
-		</form>
-		<img src="" alt="Mapa do IC-UFF">
-		<br>
-		<p> Rua Passo da Pátria, 156 - Instituto de Computação - Sala 115-B. Niterói - RJ <br>
-		<i class="fa fa-phone"></i> (22) 99746-1629 <br> 
-		<i class="fa fa-envelope"></i> contato@injunior.com.br</p>
-
+		<div class="fale-conosco">
+			<h2> Fale conosco </h2>
+			<form>
+				<input type="text" placeholder="Digite seu nome"> <br>
+				<input type="text" placeholder="Digite seu e-mail"> <br>
+				<input type="pharagraph" placeholder="Escreva..."> <br>
+				<button type="submit"><a href="#">Envia</a></button>
+			</form>
+			<!--<img src="" alt="Mapa do IC-UFF"> -->
+			<br><br>
+			<p> Rua Passo da Pátria, 156 - Instituto de Computação - Sala 115-B. Niterói - RJ <br>
+			<i class="fa fa-phone"></i> (22) 99746-1629 <br> 
+			<i class="fa fa-envelope"></i> contato@injunior.com.br</p>
+		</div>
 	</section>
 
 
