@@ -20,8 +20,8 @@
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
 	<link rel="jquery" type="text/javascript" href="<?= get_template_directory_uri(); ?>/JavaScript/jquery-3.2.1.min.js">
 	<link rel="javascript" type="text/javascript" href="<?= get_template_directory_uri(); ?>/JavaScript/behavior.js">
-<!--	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/content.js"></script> -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
 
 <?php wp_head(); ?>
 </head>

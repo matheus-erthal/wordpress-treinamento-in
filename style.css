@@ -20,13 +20,10 @@ Text Domain: meu-tema
 /* HOME */ 
 
 section {
+	height: 100vh;
 }
 
-body {
-	height: 100%;
-}
-
-
+/* HEADER */
 .top {
 	background: #221E46;
 	text-align: center;
@@ -43,6 +40,7 @@ body {
 	list-style: none;
 	text-transform: uppercase;
 }
+
 
 .top-container {
 	max-width: 920px;
@@ -69,6 +67,8 @@ body {
 	display: block;
 }
 
+/* SECTION VISUAL */
+
 .intro {
 	padding: 150px 0px;
 	background: url("img/background-intro.png") no-repeat center center;
@@ -81,39 +81,50 @@ body {
 	text-align: center;
 	vertical-align: center;
 	text-transform: uppercase;
-	margin: 19vh;
+	margin: 50vh;
 }
+
+/* SECTION QUEM SOMOS */ 
 
 .principal{
 	background: #2A2742;
 	padding: 40px 200px;
 }
 
+.quem-somos {
+	margin: 10vh auto;
+}
+
 .quem-somos h2 {
 	color: white;
-	padding-bottom: 35px;
-	max-width: 200px;
+	max-width: 50vh;
 	text-align: left;
+	padding-bottom: 20px;
 }
 
 .quem-somos p{
 	color: white;
 	text-align: left;
-	max-width: 500px;
+	max-width: 70vh;
 	line-height: 1.5em;
 }
 
 .wolf img{
-	max-width: 600px;
-	max-height: 50vh;
+	max-width: 50vh;
+	max-height: 70vh;
 	width: auto;
 	height: auto;
 	float: right;
 }
 
+/* SECTION PROJETOS */
 .projetos {
 	background: #E5E6EB;
 	padding: 40px 200px;
+}
+
+.projects {
+	margin: 10vh auto;
 }
 
 .projects h2{
@@ -127,6 +138,8 @@ body {
 	text-align: right;
 	line-height: 1.5em;
 }
+
+/* SECTION PROPOSITO */
 
 .proposito {
 	padding: 40px 200px;
@@ -144,7 +157,9 @@ body {
 	line-height: 1.5em;
 }
 
+/* SECTION CONTATO */
 .contato {
+	margin: 10vh auto;
 	background: #E5E6EB;
 	padding: 40px 200px;
 }
@@ -154,7 +169,7 @@ body {
 }
 
 .contato form {
-	display: inline-block;
+	margin: auto auto;
 }
 
 .contato form input {
@@ -185,13 +200,13 @@ body {
 }
 
 .contato img {
-	float: right;
 }
 
 .contato p {
-	float: right;
 	line-height: 1.5em;
 }
+
+/* FOOTER */
 
 .footer {
 	padding: 45px;
@@ -224,8 +239,8 @@ body {
 	color: gray;
 }
 
-
 .hiddentop {
+	display: none;
 	background: #221E46;
 	text-align: center;
 	width: 100%;
