@@ -6,10 +6,9 @@ get_header(); //chama o header//
 
 ?>
 
-<h2> Pagina de Receitas </h2>
+
 
 <?php
-
 $nova_receita = new WP_Query (array("post_type" => receitas))
 ?>
 

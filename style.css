@@ -124,6 +124,27 @@ Text Domain: meu-tema
 	opacity: 1;
 }
 
+.indice{
+    padding: 60px 0px;
+}
+.indice-container{
+    max-width: 960px;
+	margin: 0 auto;
+}
+.indice-container::after, .indice-container::before{
+	content: '';
+	display: table;
+	clear: both;
+}
+.indice-img img{ 
+    max-width: 460px;
+	float: left; 
+	margin:0 10px ;
+}
+.indice-img h2{
+    
+}
+
 /*------conteudo------*/
 .conteudo{
   background: #fcf0da;
@@ -162,7 +183,6 @@ Text Domain: meu-tema
 	display: block;
 }
 
-
 /*------footer------*/
 .footer-container{
 	background: #f7997e;
@@ -170,16 +190,13 @@ Text Domain: meu-tema
 	padding: 60px;
 	max-width: 960px;
 	margin: -30px auto;
-
 }
 
 .footer-container p{
 	float: left;
 	font-family: georgia;
 	line-height: 1.4em;
-
 }
-
 .footer-container img{
 	float: right;
   width: 6%;

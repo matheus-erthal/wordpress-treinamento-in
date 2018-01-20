@@ -19,6 +19,12 @@ get_header();
                 </div>
             </section>
 
+            <section class = "imagem">
+                <div class = "logo">
+                    <img src = "<?= get_template_directory_uri(); ?>/img/logo.png" alt = "INBurger">
+                </div>
+            </section>
+
     <?php
     $nova_contato = new WP_Query (array("post_type"  => Contatos)); //
     ?>
