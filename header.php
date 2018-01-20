@@ -20,6 +20,15 @@
 
 <?php wp_head(); ?>
 </head>
-
 <body>
-
+<header>
+    <div class="container">
+        <?php
+            $args = array(
+                'theme_location' => 'header-menu',
+        'menu' => 'Menu principal'
+            );
+            wp_nav_menu( $args );
+        ?>
+    </div>
+</header>e
