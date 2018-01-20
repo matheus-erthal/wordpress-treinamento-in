@@ -22,6 +22,19 @@ get_header(); ?>
 			</nav>
 		</div>
 	</header> 
+	<section class="hiddentop">
+		<div class="top-container">
+			<a class="top-logo" href="#"><img src="<?= get_template_directory_uri(); ?>/img/logo-in.png" alt="IN Junior"></a>	
+			<nav class="menu-nav">
+				<ul>
+					<li><a href="#">Quem somos</a></li>
+					<li><a href="#">Projetos</a></li>
+					<li><a href="#">Nosso propósito</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section> 
 	<section class="intro">
 		<p> Welcome to the IN experience </p>
 	</section>
