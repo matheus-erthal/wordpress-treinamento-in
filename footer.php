@@ -19,7 +19,6 @@
         <img src="<?= get_template_directory_uri(); ?>/assets/img/horgwarts.png" alt="Emblema de Hogwarts">
       </a>
       <div class="rede_soc">
-        <h2>Rede Social:</h2>
         <nav>
             <ul class="icones-sociais">
                 <li>

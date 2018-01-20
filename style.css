@@ -13,6 +13,9 @@ Text Domain: meu-tema
 }
 
 
+
+
+
 /* header */
 
 header{
@@ -136,21 +139,20 @@ footer p{
   margin: 0;
   width: 330px;
   float: left;
-	font-family: 'Marcellus SC', serif;
+  font-family: 'Marcellus SC', serif;
 }
 
 .rede_soc{
   float: right;
   margin: 0;
   text-align: right;
-	font-family: 'Marcellus SC', serif;
+  font-family: 'Marcellus SC', serif;
 }
 
 .brasao img{
   position: relative;
   top: -100px;
   width: 300px;
-  margin-left: 30px;
 }
 
 .icones-sociais li {
@@ -160,8 +162,12 @@ footer p{
 .icones-sociais img {
 	display: block;
 	width: 50px;
-  height: 50px;
-  margin-left: 17px;
+	height: 50px;
+	margin-left: 40px;
+	
+}.icones-sociais {
+	display: inline-block;
+	margin: 50px 0px;
 }
 
 /*sobre */
@@ -223,4 +229,113 @@ footer p{
 	background-color: #790202;
 	transition: 0.3s;
 	border: 3px solid #790202;
+}
+
+/* calculadora */
+
+.notas-container{
+	max-width: 960px;
+    margin: 50px auto 50px auto;
+}
+
+input { 
+	width:100px;
+	height: 70px;
+	text-align: center;
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 2.4em;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+
+#nota1{
+	float: left;
+	margin-left: 182.75px;
+	margin-right: 40px;
+}
+
+#nota2{
+	margin: 0 74.25px;
+	float: left;
+} 
+
+#nota3{
+	float: left;
+	margin-right: 182.75px;
+	margin-left: 40px;
+}
+
+.notas-container::after, .notas-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.calcular{
+  	padding: 10px 25px;
+  	border-radius: 10px;
+  	background-color: #790202;	
+  	color: #fff;
+  	cursor: pointer;
+  	font-family: 'Marcellus SC', serif;
+  	font-size: 1.4em;
+  	text-decoration: none;
+  	max-width: 150px;
+  	transition: 0.3s ease-in-out;
+}
+
+.botao{
+	max-width: 150px;
+	margin: 50px auto;
+	width: 960px;
+	text-align: center;
+}
+.calcular:hover{
+	transition: 0.3s ease-in-out;
+  	background-color: #ed9b2c;
+  	
+}
+
+.motivacao{
+	display: block;
+	margin: 50px auto;
+	width: 960px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+}
+
+.assinatura{
+	display: none;
+	text-align: right;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.media-final{
+	 display: inline;
+}
+
+.mensagem-paragrafo{
+	 display: inline;
+}
+.mensagem{
+	display: none;
 }

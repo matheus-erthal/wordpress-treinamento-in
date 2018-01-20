@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/home.js"></script>
 <?php wp_head(); ?>
