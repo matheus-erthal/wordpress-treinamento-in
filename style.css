@@ -46,6 +46,13 @@ Text Domain: meu-tema
 	padding: 0;
 }
 
+/* funcoes */
+
+.aparecer{
+	opacity: 1;
+	transition: 1.0s;
+}
+
 /* menu */
 
 .menu{
@@ -56,10 +63,10 @@ Text Domain: meu-tema
 	position: fixed;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
+
 	position: fixed;
 	z-index: 99;
-	
-	
+
 }
 
 
@@ -104,6 +111,8 @@ Text Domain: meu-tema
 	max-width: 960px;
 	overflow: auto;
 	margin: 0 auto;
+	/*opacity: 0;
+	transition: 1.0s;*/
 }
 
 .descricao-container{
@@ -157,7 +166,6 @@ Text Domain: meu-tema
 	height: 400px;
 	z-index: 1;
 	
-	
 }
 
 
@@ -172,6 +180,7 @@ Text Domain: meu-tema
 	height: 400px;
 	z-index: 1;
 }
+
 /* proposito */
 
 .proposito{
@@ -195,5 +204,59 @@ Text Domain: meu-tema
 .footer{
 	background: #0066cc;
 	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+.footer-container{
+	max-width: 960px;
+	height: 128px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.footer-esquerda{
+	max-width: 360px;
+	text-align: center;
+	line-height: 18px;
+
+	display: inline-block;
+}
+
+.footer-meio{
+	text-align: center;
+	line-height: 18px;
+
+	display: inline-block;
+	margin: 0 68px;
+}
+
+
+.footer-meio li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 8px;
+	
+}
+
+.footer-meio li a{
+	font-size: 1.25em;
+	color: black;
+	transition: 0.8s;
+}
+
+.footer-meio li a:hover{
+	font-size: 1.25em;
+	color: white;
+	transition: 0.8s;
+}
+
+.footer img{
+	width: 100px;
+
+	float: right;
+	display: inline-block;
 }
 
