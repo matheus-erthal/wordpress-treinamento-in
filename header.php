@@ -16,8 +16,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 	
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
+	<link rel="jquery" type="text/javascript" href="<?= get_template_directory_uri(); ?>/JavaScript/jquery-3.2.1.min.js">
+	<link rel="javascript" type="text/javascript" href="<?= get_template_directory_uri(); ?>/JavaScript/behavior.js">
 <!--	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/content.js"></script> -->
 
@@ -25,4 +27,3 @@
 </head>
 
 <body>
-
