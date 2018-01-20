@@ -32,7 +32,7 @@
 
 	<header class="menu">
 		<div class="menu-container">
-			<a class="menu-logo" href="#"><img src="img/logo-branca-in.png" alt="logo branca da In Junior"></a>	
+			<img src="<?= get_template_directory_uri(); ?>/img/logo-branca-in.png" alt="logo branca da In Junior">	
 			<nav class="menu-nav">
 				<ul>
 					<li><a href="#">Quem somos</a></li>
