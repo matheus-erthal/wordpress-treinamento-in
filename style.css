@@ -10,7 +10,7 @@ Text Domain: meu-tema
 * {
 	margin:0;
 	padding: 0;
-	}
+}
 
 
 /* header */
@@ -21,9 +21,6 @@ header{
 	border-bottom: 5px solid #da8a1b;
   height: 145px;
   font-family: 'Quicksand', sans-serif;
-  /* position: fixed;
-  width: 100%;
-  z-index: 99; */
 }
 
 
@@ -31,8 +28,8 @@ header{
 	display: block;
 	color: white;
 	text-decoration: none;
-	font-size: 3em;
-	font-weight: bold;
+	font-size: 4em;
+	margin: -30px auto;
 }
 
 .titulo-menu {
@@ -41,6 +38,9 @@ header{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	font-family: 'Yesteryear', cursive;
+	font-weight: 200;
+	text-align: center;
 }
 
 .menu a{
@@ -50,6 +50,10 @@ header{
 
 .menu li{
 	list-style: none;
+	font-family: 'Marcellus SC', serif;
+	font-size: 1.3em;
+	margin-top: 10px;
+	margin-left: 30px;
 }
 
 .menu-container {
@@ -67,7 +71,6 @@ header{
 
 .menu-nav{
 	float: right;
-	display: inline-block
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
@@ -80,7 +83,7 @@ header{
 .menu li a::after{ /* desenha o "traço" após o h1 usando pseudo-elemento*/
   content: "";
   color: white;
-  display:block;
+  display: block;
   width: 0;
   height: 4px;
   background: #da8a1b;
@@ -112,7 +115,6 @@ footer{
 }
 
 footer h2{
-  font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   font-size: 2em;
   margin-bottom: 10px;
@@ -120,8 +122,8 @@ footer h2{
 }
 
 footer p{
-  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
+	margin-bottom: 10px;
 }
 .footer-container{
   margin: 0px auto;
@@ -134,13 +136,14 @@ footer p{
   margin: 0;
   width: 330px;
   float: left;
+	font-family: 'Marcellus SC', serif;
 }
 
 .rede_soc{
   float: right;
-  width: 330px
   margin: 0;
   text-align: right;
+	font-family: 'Marcellus SC', serif;
 }
 
 .brasao img{
@@ -155,8 +158,69 @@ footer p{
 }
 
 .icones-sociais img {
-  width: 50px;
+	display: block;
+	width: 50px;
   height: 50px;
-  display: block;
   margin-left: 17px;
+}
+
+/*sobre */
+
+.sobre-container{
+	max-width: 960px;
+	background: #fff9eb;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.sobre-container img{
+	display: block;
+	margin: 30px auto;
+	border-radius: 50%;
+	border: 3px solid #141414;
+}
+.customize-support{
+	background-color: #fff9eb;
+}
+.sobre-container p{
+	text-align: justify;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.sobre-container ul{
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 1.875em;
+}
+
+/* botão */
+
+.back-to-top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: inline-block;
+	padding: 1em;
+	margin: 1em;
+	cursor: pointer;
+	color: #790202;
+	background: #da8a1b;
+	border: 3px solid #da8a1b;
+	border-radius: 10px;
+	transition: 0.3s;
+	font-family: 'Marcellus SC', serif;
+	font-weight: 700;
+	font-size: 1.125em;
+}
+
+.back-to-top:hover{
+	color:#da8a1b;
+	background-color: #790202;
+	transition: 0.3s;
+	border: 3px solid #790202;
 }

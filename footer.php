@@ -8,7 +8,6 @@
 
 ?>
 <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
-<br><br><br>
 <footer>
   <div class="footer-container">
       <div class="contato">
