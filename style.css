@@ -82,6 +82,7 @@ Text Domain: meu-tema
 	list-style: none;
 	display: inline-block;
 	padding-top: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .menu-nav li a{
@@ -96,6 +97,7 @@ Text Domain: meu-tema
 	height: 88vh;
 	max-width: 960px;
 	overflow: auto;
+	margin: 0 auto;
 }
 
 .descricao-container{
@@ -103,14 +105,16 @@ Text Domain: meu-tema
 }
 
 .descricao-texto{
+	color: #360087;
 	max-width: 460px;
 	float: left;
-	padding-left: 60px;
-	padding-top: 40px;
+	padding-left: 20px;
+	padding-top: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .descricao-texto h2{
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -124,6 +128,8 @@ Text Domain: meu-tema
 .descricao img{
 	max-width: 460px;
 	float: right;
+	padding-right: 20px;
+
 }
 
 /* quem somos */
