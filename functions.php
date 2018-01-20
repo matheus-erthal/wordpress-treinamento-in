@@ -2,6 +2,7 @@
 
 add_theme_support( 'post-thumbnails' );
 
+
 wp_enqueue_style('style', get_stylesheet_uri());
 
 
@@ -9,6 +10,12 @@ function cadastrando_post_type_receitas() {
     $nomeSingular = 'Receita';
     $nomePlural = 'Receitas';
     $descricao = 'Receitas do restaurante';
+
+function cadastrando_post_type_notas() {
+
+    $nomeSingular = 'Nota';
+    $nomePlural = 'Notas';
+    $descricao = 'Notas dos alunos';
 
     $labels = array(
         'name' => $nomePlural,
@@ -32,7 +39,12 @@ function cadastrando_post_type_receitas() {
     );
 
 
-    register_post_type( 'receitas', $args);    
+    register_post_type( 'receitas', $args);
 }
 
 add_action('init', 'cadastrando_post_type_receitas');
+
+    register_post_type( 'notas', $args);
+}
+
+add_action('init', 'cadastrando_post_type_notas');

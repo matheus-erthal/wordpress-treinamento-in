@@ -9,10 +9,17 @@
 
 get_header(); ?>
 
+
+
+
+
+
+
+
 <h1>Receitas</h1>
 
 <?php // The Query
-$nossa_query = new WP_Query( array( 'post_type' => 'receitas') ); 
+$nossa_query = new WP_Query( array( 'post_type' => 'receitas') );
 ?>
 
 <?php if ($nossa_query->have_posts()): ?>
@@ -26,9 +33,21 @@ $nossa_query = new WP_Query( array( 'post_type' => 'receitas') );
         <p><?php the_content() ?></p>
 
     </div>
-        
+
     <?php endwhile; ?>
 <?php endif; ?>
 
 
-<?php get_footer();
+
+<h1 style="text-align: center">Site do Amanco</h1>
+
+
+
+<?php if(have_posts()):
+    while(have_posts()): the_post(); ?>
+        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+<?php endwhile;
+    endif; ?>
+
+
+    <?php get_footer();

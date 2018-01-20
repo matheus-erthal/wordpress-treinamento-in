@@ -2,11 +2,13 @@
 /**
  * @package WordPress
  * @subpackage Restaurante Sabor Brasil
+ * @subpackage meu-tema
  * @since 1.0
  * @version 1.2
  */
 
 ?>
+
 
 <?php wp_footer(); ?>
 
@@ -19,13 +21,17 @@
             <a href="http://instagram.com"><img src="<?= get_template_directory_uri(); ?>/assets/img/instagram.png"></a>
       </div>
     </div>
-    
+
     <div class="footer-sobre">
     <p>Layout desenvolvido pela equipe 1 Ⓒ 2018</p>
     </div>
 
 </footer>
 
+
+
+<footer></footer>
+<?php wp_footer(); ?>
 
 </body>
 </html>
