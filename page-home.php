@@ -45,7 +45,7 @@ get_header();
 			<div class="wolf"> 
 			<img src="<?= get_template_directory_uri(); ?>/img/lobo.png" alt="Lobo">
 			</div>
-			<p> <?php the_field('texto'); ?> </p>
+			<p> <?php the_field('texto_who'); ?> </p>
 		</div>
 	</section>
 
