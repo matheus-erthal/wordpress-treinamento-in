@@ -26,6 +26,6 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div><button class="back-to-top" id="topo">Suba ao topo</button></div>
+<div><button class="back-to-top">Suba ao topo</button></div>
 
 <?php get_footer();
