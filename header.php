@@ -18,10 +18,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 	
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
-	<script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/behavior.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/behavior.js"></script>
 
 
 <?php wp_head(); ?>

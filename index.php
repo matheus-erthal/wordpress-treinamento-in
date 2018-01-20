@@ -47,17 +47,18 @@ get_header(); ?>
 			<div class="wolf"> 
 			<img src="<?= get_template_directory_uri(); ?>/img/lobo.png" alt="Lobo">
 			</div>
-				<!-- <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in metus eu lorem vulputate consectetur. Donec nec ultrices ante. Phasellus viverra orci in est suscipit, sed volutpat risus feugiat. Sed bibendum ut neque dapibus vestibulum. Aliquam erat volutpat. Duis pulvinar nunc quis auctor rhoncus. </p> <br> -->
-				<p> Mauris ac eros sit amet odio maximus mollis nec in tortor. Ut imperdiet fermentum malesuada. Vivamus a justo urna. Donec sit amet scelerisque mauris. Sed vitae vulputate velit, et rutrum mauris. Integer ac sagittis dolor, eget vehicula tortor. Phasellus rutrum sodales rhoncus. Suspendisse id diam diam. In hac habitasse platea dictumst. Morbi imperdiet tellus ut sapien bibendum, id sagittis odio aliquet. </p>				<p>Mauris ac eros sit amet odio maximus mollis nec in tortor. Ut imperdiet fermentum malesuada. Vivamus a justo urna. Donec sit amet scelerisque mauris. Sed vitae vulputate velit, et rutrum mauris. Integer ac sagittis dolor, eget vehicula tortor. Phasellus rutrum sodales rhoncus. Suspendisse id diam diam. In hac habitasse platea dictumst. Morbi imperdiet tellus ut sapien bibendum, id sagittis odio aliquet. </p>
-				 </div> 
+			<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in metus eu lorem vulputate consectetur. Donec nec ultrices ante. Phasellus viverra orci in est suscipit, sed volutpat risus feugiat. Sed bibendum ut neque dapibus vestibulum. Aliquam erat volutpat. Duis pulvinar nunc quis auctor rhoncus. </p> <br>
+				<p> Mauris ac eros sit amet odio maximus mollis nec in tortor. Ut imperdiet fermentum malesuada. Vivamus a justo urna. Donec sit amet scelerisque mauris. Sed vitae vulputate velit, et rutrum mauris. Integer ac sagittis dolor, eget vehicula tortor. Phasellus rutrum sodales rhoncus. Suspendisse id diam diam. In hac habitasse platea dictumst. Morbi imperdiet tellus ut sapien bibendum, id sagittis odio aliquet. </p>	<br>
+				<p>Mauris ac eros sit amet odio maximus mollis nec in tortor. Ut imperdiet fermentum malesuada. Vivamus a justo urna. Donec sit amet scelerisque mauris. Sed vitae vulputate velit, et rutrum mauris. Integer ac sagittis dolor, eget vehicula tortor. Phasellus rutrum sodales rhoncus.
+				Suspendisse id diam diam. In hac habitasse platea dictumst. Morbi imperdiet tellus ut sapien bibendum, id sagittis odio aliquet. </p> 
 		</div>
 	</section>
 
 	<section class="projetos">
 		<div class="projects">
 			<h2> Projetos </h2>
-			<p>  <?php get_content(); ?> </p>
-			 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<!-- <p>  <?php the_content(); ?> </p>
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -82,7 +83,7 @@ get_header(); ?>
    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
    				<span class="sr-only">Next</span>
    				</a>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
@@ -110,4 +111,4 @@ get_header(); ?>
 
 
 
-<?php get_footer();
+<?php get_footer();	
