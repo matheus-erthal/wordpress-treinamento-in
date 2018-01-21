@@ -197,14 +197,15 @@ Text Domain: meu-tema
 
 .proposito{
 	background: #BDCEFA;
-	margin-top: 10px;
+	padding: 20px 0;
 	font-family: 'Roboto Condensed', sans-serif;
-	height: 200px;
+	height: 280px;
 }
 
 .proposito h2{
 	color: white;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 .proposito-container{
@@ -216,6 +217,11 @@ Text Domain: meu-tema
 	width: 300px;
 	float: left;
 	margin: 0 10px;
+	text-align: center;
+}
+
+.proposito-item h3{
+	font-size: 1.4em;
 }
 
 /* contato */

@@ -113,7 +113,7 @@ get_header();
 		<div class="proposito-item">
 			<h3>Valores</h3>
 			<p>Sorriso no rosto :D <br> Trabalhar em alcateia <br>
-			Proatividade Codar por amor <br> Espírito Alpha</p>
+			Proatividade <br> Codar por amor <br> Espírito Alpha</p>
 		</div>
 		<div class="proposito-item">
 			<h3>Visão</h3>
