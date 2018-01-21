@@ -25,10 +25,18 @@
           <a class="menu-logo" href="http://localhost/wordpress/"><img src="<?= get_template_directory_uri(); ?>/img/logooficial.png" alt="InBurguer"></a>
           <nav class="menu-nav">
             <ul>
+              <li><a href="<?php get_site_url()?>/wordpress/sobre/">Sobre</a></li>
+              <li><a href="<?php get_site_url()?>/wordpress/receitas">Receitas</a></li>
+              <li><a href="<?php get_site_url()?>/wordpress/lojas/">Onde Estamos</a></li>
+              <li><a href= "<?php get_site_url()?>/wordpress/contato/">Contato</a></li>
+
+<!--
+=======
               <li><a href="http://localhost/wordpress/?page_id=39">Sobre</a></li>
               <li><a href="http://localhost/wordpress/?page_id=10">Receitas</a></li>
               <li><a href="http://localhost/wordpress/?page_id=32 ">Onde Estamos</a></li>
               <li><a href="http://localhost/wordpress/?page_id=44">Contato</a></li>
+            -->
             </ul>
           </nav>
         </div>

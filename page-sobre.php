@@ -12,9 +12,7 @@ $nova_sobre = new WP_Query (array("post_type" => sobre)); //determina dois posts
     <?php while($nova_sobre->have_posts()): ?>
         <?php $nova_sobre->the_post(); ?> <!--puxa o post-->
     <a href = "<?php the_permalink(); ?>"></a>
-    <?php endwhile; ?>
-<?php endif; ?>
-   <section>
+    <section>
         <div class="conteudo">
             <div class="conteudo-container">
                 <img src= "<?= get_template_directory_uri(); ?>/img/sobre.jpg" alt="Sobre Nós">
@@ -38,5 +36,7 @@ $nova_sobre = new WP_Query (array("post_type" => sobre)); //determina dois posts
                 </div>
             </div>
     </section>
+    <?php endwhile; ?>
+<?php endif; ?>
 
 <?php get_footer(); ?> 
