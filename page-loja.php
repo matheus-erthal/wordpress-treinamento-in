@@ -10,6 +10,18 @@ get_header();
         </div>
     </section>
 
+    <section class="links">
+        <div class="links-container">
+          <div class="links-nav">
+              <ul>
+                <li><a href="contato.html">Contate-nos</a></li>
+                <li><a href="loja.html">Onde Estamos</a></li>
+                <li><a href="receita.html">Receitas</a></li>
+              </ul>
+          </div>
+        </div>
+   </section>
+
 <?php
 $nova_loja = new WP_Query (array("post_type"  => lojas));
 ?>

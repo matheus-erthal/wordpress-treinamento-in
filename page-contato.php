@@ -5,7 +5,7 @@ get_header();
 ?>
 
 
-            <section class="contato">
+        <section class="contato">
             <div class="formulario">
                 <form id="contact" action="" method="post">
                     <label>Nome</label>
@@ -17,13 +17,25 @@ get_header();
                     <button type="submit">Enviar</button>
                 </form>
             </div>
-            </section>
+        </section>
 
-            <section class = "imagem">
+        <section class = "imagem">
                 <div class = "logo">
-                    <img src = "<?= get_template_directory_uri(); ?>/img/logo.png" alt = "INBurger">
+                    <img src = "<?= get_template_directory_uri(); ?>/img/logooficial.png" alt = "INBurger">
                 </div>
-            </section>
+        </section>
+
+        <section class="links">
+            <div class="links-container">
+            <div class="links-nav">
+                <ul>
+                    <li><a href="contato.html">Contate-nos</a></li>
+                    <li><a href="loja.html">Onde Estamos</a></li>
+                    <li><a href="receita.html">Receitas</a></li>
+                </ul>
+            </div>
+            </div>
+        </section>
 
 <?php
 $nova_contato = new WP_Query (array("post_type"  => Contatos)); //
