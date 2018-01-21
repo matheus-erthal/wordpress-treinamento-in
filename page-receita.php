@@ -4,40 +4,47 @@
 get_header();
 
 ?>
-    <section>
-        <div class="receitas">
-            <img src="<?= get_template_directory_uri(); ?>/img/receita1.jpg">
-            <p>receita aqui</p>
-        </div>
-        <div>
-            <img src="<?= get_template_directory_uri(); ?>/img/receita2.jpg">
-            <p>receita aqui</p>
-        </div>
-        <div>
-            <img src="<?= get_template_directory_uri(); ?>/img/receita3.jpg">
-            <p>receita aqui</p>
-        </div>
-        <div>
-           <img src="<?= get_template_directory_uri(); ?>/img/receita4.jpg">
-           <p>receita aqui</p>
-       </div>
-       <div>
-            <img src="<?= get_template_directory_uri(); ?>/img/receita5.jpg">
-            <p>receita aqui</p>
-        </div>
-    </section> 
 
-    <section class="links">
-        <div class="links-container">
-          <div class="links-nav">
-              <ul>
-                <li><a href="contato.html">Contate-nos</a></li>
-                <li><a href="loja.html">Onde Estamos</a></li>
-                <li><a href="receita.html">Receitas</a></li>
-              </ul>
-          </div>
+<section>
+    <div class="receitas">
+        <div class="esquerda">
+            <img src= "<?= get_template_directory_uri(); ?>/img/receita1.jpg">
+            <h2>Frango Frito</h2>
+            <p>receita aqui</p>
         </div>
-   </section>
+        <div class="direita">
+            <img src= "<?= get_template_directory_uri(); ?>/img/receita2.jpg">
+            <h2>Nachos Mexicanos</h2>
+            <p>receita aqui</p>
+        </div>
+        <div class="esquerda">
+            <img src= "<?= get_template_directory_uri(); ?>/img/receita3.jpg">
+            <h2>Hamburguer Caseiro</h2>
+            <p>receita aqui</p>
+        </div>
+        <div class="direita">
+        <img src= "<?= get_template_directory_uri(); ?>/img/receita4.jpg">
+        <h2>Salada com Manga</h2>
+        <p>receita aqui</p>
+    </div>
+    <div class="esquerda">
+        <img src= "<?= get_template_directory_uri(); ?>/img/receita5.jpg">
+        <h2>Cookies com Nutella</h2>
+        <p>receita aqui</p>
+    </div>
+</section>
+
+<section class="links">
+    <div class="links-container">
+      <div class="links-nav">
+          <ul>
+            <li><a href="contato.html">Contate-nos</a></li>
+            <li><a href="loja.html">Onde Estamos</a></li>
+            <li><a href="receita.html">Receitas</a></li>
+          </ul>
+      </div>
+    </div>
+  </section>
 
 <?php
 $nova_receita = new WP_Query (array("post_type" => receitas)); //determina dois posts na pagina
