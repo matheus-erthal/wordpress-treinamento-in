@@ -104,16 +104,58 @@ get_header();
 </section>
 
 <section class="proposito">
-	<h2>Nosso propósito</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
-	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	    <div class="proposito-container">
+      <div class="proposito-item">
+        <h2 class="missao">Missão</h2>
+        <p>Satisfazer o cliente através da entrega constante de projetos por profissionais realizados.</p>
+      </div>
+      <div class="proposito-item">
+        <h2 class="valores">Valores</h2>
+        <p>Sorriso no rosto :D</p>
+
+         <p>Trabalhar em alcateia</p>
+
+          <p>Proatividade</p>
+
+          <p>Codar por S2 </p>
+
+          <p>Espírito Alpha</p>
+      </div>
+      <div class="proposito-item">
+        <h2 class="visao">Visão</h2>
+        <p>Ser a EJ de TI com maior entrega de projetos de qualidade.</p>
+      </div>
+
+
 </section>
+
 
 <section class="contato">
 	<h2>Contato</h2>
-	<img src="img/contato.png" alt="contato">
+	 
+
 	<div class="contato-mailer">
+    <form id="contact_form" action="#" method="post" enctype="multipart/form-data">
+  <div class="row">
+    <label for="name">Nome:</label><br>
+    <input id="name" class="input" name="name" type="text"/>
+  </div>
+  <div class="row">
+    
+    <label for="email">Email:</label><br>
+
+    <input id="email" class="input" name="email" type="text"/>
+  </div>
+  <div class="row">
+   
+    <label for="message">Mensagem:</label><br/>
+   
+    <textarea id="message" class="input" name="message" rows="10" cols="30"></textarea><br>
+  </div>
+
+   <p><input id="submit_button" class="botao" type="submit" value="ENVIAR"/></p>
+ 
+</form>           
 		
 	</div>
 </section>

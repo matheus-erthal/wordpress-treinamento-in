@@ -192,12 +192,68 @@ Text Domain: meu-tema
 	color: white;
 	text-align: center;
 }
+.proposito-item{
+	width: 300px;
+	display: inline-block;
+	margin: 0px 8px;
+
+}
+
+
+
+.proposito-item h2{
+	text-align: center;
+	font-size: 2.25em;
+	margin-bottom: 20px;
+
+}
+
+
+
+.proposito-item p{
+	font-size: 0.875em;
+	line-height: 1.4em;
+
+}
+
+
 
 /* contato */
 
 .contato{
 	text-align: center;
 }
+.contato-mailer{
+	margin-left: 50px;
+
+}
+.contato img{
+	float: right;
+}
+
+
+
+.row input{
+	margin: 10px;
+
+}
+.row textarea{
+	padding: 20px;
+	margin: 10px;
+
+}
+.row label{
+	margin: 10px;
+	width: 100%;
+	text-align: left;
+
+}
+ .botao{
+ 	float: left;
+ 	
+ }
+
+
 
 /* footer */
 
