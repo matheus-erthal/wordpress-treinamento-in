@@ -47,11 +47,6 @@ Text Domain: meu-tema
 }
 
 
-/* funcoes */
-
-
-
-
 /* menu */
 
 .menu{
@@ -222,12 +217,6 @@ Text Domain: meu-tema
 	text-align: center;
 }
 
-
-
-}
-
-
-
 /* contato */
 
 .contato{
@@ -242,8 +231,6 @@ Text Domain: meu-tema
 	float: right;
 }
 
-
-
 .row input{
 	margin: 10px;
 
@@ -253,6 +240,7 @@ Text Domain: meu-tema
 	margin: 10px;
 
 }
+
 .row label{
 	margin: 10px;
 	width: 100%;
@@ -263,8 +251,6 @@ Text Domain: meu-tema
  	float: left;
  	
  }
-
-
 
 /* footer */
 
@@ -320,7 +306,6 @@ Text Domain: meu-tema
 
 .footer img{
 	width: 100px;
-
 	float: right;
 	display: inline-block;
 }
