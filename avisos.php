@@ -7,7 +7,6 @@
  * @since 1.0
  * @version 1.0
  */
-
 get_header(); ?>
 <div class="painel-master">
     <?php $query_posts = new WP_Query(array('category_name' => 'avisos')) ?>

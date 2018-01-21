@@ -2,11 +2,11 @@
 
 add_theme_support( 'post-thumbnails' );
 
-function cadastrando_post_type_notas() {
+function cadastrando_post_type_turmas() {
 
-    $nomeSingular = 'Nota';
-    $nomePlural = 'Notas';
-    $deion = 'Notas dos alunos';
+    $nomeSingular = 'Turma';
+    $nomePlural = 'Turmas';
+    $deion = 'turmas da professora';
 
     $labels = array(
         'name' => $nomePlural,
