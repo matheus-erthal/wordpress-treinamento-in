@@ -183,7 +183,7 @@ Text Domain: meu-tema
 	z-index: 1;
 }
 
-.carousel-control-prev a{
+.carousel-control-prev{
 	color: black;
 }
 
@@ -193,10 +193,24 @@ Text Domain: meu-tema
 	background: #BDCEFA;
 	margin-top: 10px;
 	font-family: 'Roboto Condensed', sans-serif;
-	
+	height: 200px;
 }
 
+.proposito h2{
+	color: white;
+	text-align: center;
+}
 
+.proposito-container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.proposito-item{
+	width: 300px;
+	float: left;
+	margin: 0 10px;
+}
 
 /* contato */
 
