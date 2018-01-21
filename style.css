@@ -9,23 +9,23 @@ Text Domain: meu-tema
 */
 
 /**
-	* Sumário
+	* Sumario
 	*
 	* 1.0 Reset
-	*	2.0 Botão de back-to-top
+	*	2.0 Botao de back-to-top
 	* 3.0 Header
 	*			3.1 Menu Container
 	*			3.2 Titulo
-	*			3.3 Menu de Navegação
+	*			3.3 Menu de Navegacoo
 	* 4.0 Footer
 	*			4.1 Footer Container
 	*			4.2 Contato
 	*			4.3 Redes Sociais
-	* 5.0 Página Sobre
-	* 6.0 Página Calculadora
+	* 5.0 Pagina Sobre
+	* 6.0 Pagina Calculadora
 	*			6.1 Notas Container
 	* 		6.2 Botão para Calcular
-	*			6.3 Área de Textos de Motivação
+	*			6.3 Area de Textos de Motivacao
 	*			6.4 Funcionalidades
 
 **/
@@ -46,6 +46,7 @@ html {
     min-height: 100%;
 }
 body {
+    margin: 0 0 60px;
 }
 
 .customize-support{
@@ -54,7 +55,7 @@ body {
 
 
 /**
- 	* 2.0 Botão de back-to-top
+ 	* 2.0 Botao de back-to-top
 **/
 
 
@@ -140,11 +141,12 @@ header{
 		text-decoration: none;
 		font-size: 4em;
 		margin: -30px auto;
+		cursor: default;
 }
 
 
 /**
-	* 3.3 Menu de Navegação
+	* 3.3 Menu de Navegacao
 **/
 
 
@@ -165,7 +167,7 @@ header{
 		margin-left: 30px;
 }
 
-.menu li a::after{ /* desenha o "traço" após o h1 usando pseudo-elemento*/
+.menu li a::after{
 	  content: "";
 	  color: white;
 	  display: block;
@@ -283,7 +285,7 @@ footer p{
 
 
 /**
-	* 5.0 Página Sobre
+	* 5.0 Pagina Sobre
 **/
 
 
@@ -318,7 +320,7 @@ footer p{
 
 
 /**
- 	* 6.0 Página Calculadora
+ 	* 6.0 Pagina Calculadora
 **/
 
 
@@ -384,7 +386,7 @@ input {
 
 
 /**
-	* 6.2 Botão para Calcular
+	* 6.2 Botao para Calcular
 **/
 
 
@@ -416,7 +418,7 @@ input {
 
 
 /**
-	* 6.3 Área de Textos de Motivação
+	* 6.3 Area de Textos de Motivacao
 **/
 
 
@@ -463,34 +465,66 @@ input::-webkit-inner-spin-button {
 .mensagem{
 		display: none;
 }
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+/*pag Turma TAB "ALUNOS, DESCRICAO, ARQUIVO" (incompleto)
+
+
+/**
+	* 7.0 Avisos
+**/
+
+
+.painel-master{
+
+		font-family: 'Quicksand', sans-serif;
+		margin-bottom: 270px;
+		margin-top: 50px;
 }
-/* Style the buttons that are used to open the tab content */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+
+.painel{
+		margin: 0px auto;
+		display: block;
+		max-width: 960px;
 }
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
+
+.painel-botao{
+		background: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 20px;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: 0.4s;
+		padding-bottom: 40px;
+		border: 2px solid #FEF7EE;
+		border-top: 0;
 }
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
+
+.painel-botao:hover{
+		background: #da8a1b;
 }
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+
+.painel-data{
+		float: left;
+		width: 150px;
+		border-right: 1px solid black;
+}
+
+.painel-titulo{
+		float: left;
+		margin-left: 30px;
+}
+.painel-container{
+		padding: 18px;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+		max-width: 960px;
+		border-bottom: 5px solid #FEF7EE;
+		margin-left: 2px;
+		margin-right: 2px;
+}
+
+.painel-para{
+		display: none;
 }
