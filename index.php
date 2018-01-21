@@ -6,7 +6,8 @@
  * @since 1.0
  * @version 1.0
  */
-get_header(); ?>
+?>
+
 
 <?php //The Query 
 $nossa_query = new WP_Query( array('posts_type' => news) );
@@ -24,6 +25,8 @@ $nossa_query = new WP_Query( array('posts_type' => news) );
 	
 	<p><?php the_content(); ?></p>
 
+	<img src="<?php the_field('img_intro'); ?>">
+	<img src="<?php the_field('img_proposito'); ?>">
     <?php endwhile; ?>
 <?php endif; ?>
 

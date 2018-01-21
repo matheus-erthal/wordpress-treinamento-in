@@ -17,7 +17,7 @@ Text Domain: meu-tema
 	font-family: 'Raleway', sans-serif;
 }
 
-/* HOME */ 
+/* HOME */
 
 section {
 	height: 100vh;
@@ -29,6 +29,7 @@ section {
 	text-align: center;
 	width: 100%;
 	height: 13vh;
+	position: relative;
 }
 
 .top a {
@@ -74,8 +75,7 @@ section {
 /* SECTION VISUAL */
 
 .intro {
-	padding: 150px 0px;
-	background: url("img/background-intro.png") no-repeat center center;
+	height: 100vh;
 	background-size: cover;
 }
 
@@ -85,10 +85,10 @@ section {
 	text-align: center;
 	vertical-align: center;
 	text-transform: uppercase;
-	margin: 25vh;
+	padding: 40vh;
 }
 
-/* SECTION QUEM SOMOS */ 
+/* SECTION QUEM SOMOS */
 
 .principal{
 	background: #2A2742;
@@ -96,7 +96,6 @@ section {
 }
 
 .quem-somos {
-	margin: 10vh auto;
 }
 
 .quem-somos h2 {
@@ -128,7 +127,6 @@ section {
 }
 
 .projects {
-	margin: 10vh auto;
 }
 
 .projects h2{
@@ -147,7 +145,7 @@ section {
 
 .proposito {
 	padding: 40px 200px;
-	background: url("img/injunior-background.jpg") no-repeat center center;
+	background: no-repeat center center;
 	background-size: cover;
 }
 
@@ -165,20 +163,33 @@ section {
 /* SECTION CONTATO */
 .contato {
 	background: #E5E6EB;
-	padding: 40px 200px;
+}
+
+#googlemaps {
+	float: center;
+  	height: 100%;
+	width: 100%;
+  	position: absolute;
+  	transition: 1s;
+	opacity: 0.2;
+  	z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
 }
 
 .fale-conosco {
-	margin: 10vh auto;
+	width: 400px;
+	padding: 45px auto;
+	margin: 0px auto;
+	position: relative;
+	z-index: 1;/* The z-index should be higher than Google Maps */
 }
 
 .fale-conosco h2 {
 	text-align: center;
-	padding-bottom: 35px;
+	padding: 35px 0;
 }
 
 .fale-conosco form {
-	text-align: center;
+	text-align:	center;
 }
 
 .fale-conosco form input {
@@ -222,6 +233,7 @@ section {
 	text-align: center;
 	line-height: 1.6em;
 }
+
 /* FOOTER */
 
 .footer {
@@ -255,21 +267,112 @@ section {
 	color: gray;
 }
 
-.hiddentop {
-	display: none;
-	background: #221E46;
+/* CSS DO BLOG */
+
+.blog-header {	
+	background: #FFF;
 	text-align: center;
 	width: 100%;
-	height: 13vh;
-	position:fixed;
+	height: 20vh;
+	max-width: 920px;
+	padding: 15px;
+	margin: auto auto;
 }
 
-.hiddentop a {
-	color: #FFFFFF;
+.blog-header img{
+	display: center;
+	padding-bottom: 20px;
+}
+
+.blog-header a {
+	color: gray;
 	text-decoration: none;
 }
 
-.hiddentop li {
+.blog-header li {
 	list-style: none;
 	text-transform: uppercase;
+}
+
+.mnav li{
+	display: inline-block;
+}
+
+.mnav li a {
+	padding: 15px;
+	display: block;
+}
+
+
+.posts {
+	background: white;
+	text-align: left;
+	padding: 40px 200px;
+}
+
+
+.posts h2:after {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 1px;
+	background: gray;
+	margin: 10px auto;
+}
+
+.posts h2 {
+	padding: 20px 0;
+}
+
+.posts p {
+	padding: 10px 0;
+	font-size: 0.9em;
+}
+.posts a {
+	text-decoration: none;
+	color: #000;
+}
+
+.post {
+	background: #E5E6EB;
+	text-align: left;
+	padding: 40px 200px;
+}
+.post h2{
+	padding: 20px 0;
+}
+
+
+
+.blog-footer {
+	padding: 45px;
+	background: gray;
+	color: white;
+	height: 10vh;
+}
+
+.foot-container {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.foot-container p {
+	float: right;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.blog-footer a {
+	float: left;
+	margin: auto;
+}
+
+.blog-footer i {
+	font-size: 2em;
+	color: white;
+	padding: 0px 10px;
+}
+
+.blog-footer i:hover {
+	color: ;
 }

@@ -16,7 +16,7 @@
 				<a href="https://www.instagram.com/injunioruff/"><i class="fa fa-instagram"></i></a>
 				<a href="https://www.linkedin.com/company/in-junior"><i class="fa fa-linkedin-square"></i></a>
 			</div>	
-			<p> Copyright © 2017 Feito com <3 | IN Junior </p>
+			<p> Copyright © 2017 | Feito com <3 | IN Junior </p>
 		</div>
 	</footer>
 	

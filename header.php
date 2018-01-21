@@ -18,10 +18,24 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 	
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
-	<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/behavior.js"></script>
+	<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/JavaScript/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/JavaScript/behavior.js"></script>
 
 
+<header class="top">
+	<div class="top-container">
+		<a class="top-logo" href="#"><img src="<?= get_template_directory_uri(); ?>/img/logo-in-resized.png" alt="IN Junior"></a>
+		<nav class="menu-nav">
+			<ul>
+				<li><a href="principal">Quem somos</a></li>
+				<li><a href="projetos">Projetos</a></li>
+				<li><a href="proposito">Nosso propósito</a></li>
+				<li><a href="contato">Contato</a></li>
+				<li><a href="top">Blog</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
 <?php wp_head(); ?>
 </head>
 
