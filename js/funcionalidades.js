@@ -6,11 +6,13 @@ $(document).ready( function()
 		var windowTop = $(this).scrollTop();
 		if(windowTop > $('.descricao').offset().top - 200)
 		{
-			$('.descricao').addClass('aparecer');
+			$('.descricao-texto').addClass('aparecer');
+			$('.descricao img').addClass('aparecer');
 		}
 		else
 		{
-			$('.descricao').removeClass('aparecer');
+			$('.descricao-texto').removeClass('aparecer');
+			$('.descricao img').removeClass('aparecer');
 		}
 
 		
