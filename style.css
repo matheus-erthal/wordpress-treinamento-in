@@ -62,7 +62,6 @@ Text Domain: meu-tema
 	position: fixed;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-
 	position: fixed;
 	z-index: 99;
 
@@ -136,7 +135,6 @@ Text Domain: meu-tema
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 600;
-
 	float: right;
 	padding-right: 80px;
 	padding-top: 50px;
@@ -164,12 +162,12 @@ Text Domain: meu-tema
 .quem-somos{
 	background: #BDCEFA;
 	text-align: center;
-	height: 88vh;
-
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .quem-somos h2{
 	color: white;
+	padding: 20px 0;
 }
 
 .carousel-item img{
@@ -179,18 +177,26 @@ Text Domain: meu-tema
 	z-index: 1;
 }
 
+.quem-somos p{
+	padding: 20px 0;
+}
 
 /* projetos */
 
 .projetos{
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 }
+
 .carousel-item img{
 	max-width:500px;
 	position:relative;
 	height: 400px;
 	z-index: 1;
+}
 
+.carousel-control-prev a{
+	color: black;
 }
 
 /* proposito */
@@ -198,17 +204,17 @@ Text Domain: meu-tema
 .proposito{
 	background: #BDCEFA;
 	margin-top: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	
 }
 
-.proposito h2{
-	color: white;
-	text-align: center;
-}
+
 
 /* contato */
 
 .contato{
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* footer */
