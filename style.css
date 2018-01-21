@@ -47,6 +47,11 @@ Text Domain: meu-tema
 }
 
 
+/* funcoes */
+
+
+
+
 /* menu */
 
 .menu{
@@ -108,6 +113,7 @@ Text Domain: meu-tema
 	height: 88vh;
 	overflow: auto;
 	margin: 0 auto;
+	
 }
 
 .descricao-container{
