@@ -48,10 +48,7 @@ Text Domain: meu-tema
 
 /* funcoes */
 
-.aparecer{
-	opacity: 1;
-	transition: 1.0s;
-}
+
 
 /* menu */
 
@@ -111,10 +108,13 @@ Text Domain: meu-tema
 	max-width: 960px;
 	overflow: auto;
 	margin: 0 auto;
-	/*opacity: 0;
-	transition: 1.0s;*/
+	opacity: 0;
+	transition: 1.0s;	
 }
-
+.aparecer{
+	opacity: 1;
+	transition: 1.0s;
+}
 .descricao-container{
 	padding-top: 80px;
 }
