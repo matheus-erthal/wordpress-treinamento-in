@@ -4,13 +4,6 @@ wp_enqueue_style('style', get_stylesheet_uri());
 
 add_theme_support( 'post-thumbnails' );
 
-function adicionar_script(){
-	wp_enqueue_script('script_funcionalidades', get_template_directory_uri() . '/js/funcionalidades.js', array('jquery'),'1.0', false);
-
-}
-
-add_action( 'wp_enqueue_scripts', 'adicionar_script' );
-
 
 function cadastrando_post_type_imagens() {
 

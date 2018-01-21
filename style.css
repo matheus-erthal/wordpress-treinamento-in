@@ -189,7 +189,7 @@ Text Domain: meu-tema
 	z-index: 1;
 }
 
-.carousel-control-prev a{
+.carousel-control-prev{
 	color: black;
 }
 
@@ -197,9 +197,31 @@ Text Domain: meu-tema
 
 .proposito{
 	background: #BDCEFA;
-	margin-top: 10px;
+	padding: 20px 0;
 	font-family: 'Roboto Condensed', sans-serif;
-	
+	height: 280px;
+}
+
+.proposito h2{
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.proposito-container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.proposito-item{
+	width: 300px;
+	float: left;
+	margin: 0 10px;
+	text-align: center;
+}
+
+
+
 }
 
 
@@ -210,6 +232,37 @@ Text Domain: meu-tema
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+.contato-mailer{
+	margin-left: 50px;
+
+}
+.contato img{
+	float: right;
+}
+
+
+
+.row input{
+	margin: 10px;
+
+}
+.row textarea{
+	padding: 20px;
+	margin: 10px;
+
+}
+.row label{
+	margin: 10px;
+	width: 100%;
+	text-align: left;
+
+}
+ .botao{
+ 	float: left;
+ 	
+ }
+
+
 
 /* footer */
 
