@@ -113,15 +113,9 @@ Text Domain: meu-tema
 	height: 88vh;
 	overflow: auto;
 	margin: 0 auto;
-<<<<<<< HEAD
-	opacity: 0;
-	transition: 1.0s;	
+	
 }
-.aparecer{
-	opacity: 1;
-	transition: 1.0s;
 
-}
 .descricao-container{
 	padding-top: 80px;
 }
