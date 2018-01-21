@@ -4,9 +4,9 @@ get_header(); ?>
 <section class="qs">
   <div class="qs-container">
     <div class="w3-content w3-display-container container-img">
-        <img class="mySlides" src="<?= get_template_directory_uri(); ?>/assets/img/ambiente.jpg" > <!-- style="width:400px" style="height:800px" -->
-        <img class="mySlides" src="<?= get_template_directory_uri(); ?>/assets/img/slide.jpg" >
-        <img class="mySlides" src="<?= get_template_directory_uri(); ?>/assets/img/vista.jpg" >
+        <img class="mySlides" src="<?= get_template_directory_uri(); ?>/assets/img/ambiente.jpg"> <!-- style="width:400px" style="height:800px" -->
+        <img class="mySlides" src="<?= get_template_directory_uri(); ?>/assets/img/slide.jpg">
+        <img class="mySlides" src="<?= get_template_directory_uri(); ?>/assets/img/vista.jpg">
         <button class="w3-button w3-black w3-display-left left">&#10094;</button>
         <button class="w3-button w3-black w3-display-right right">&#10095;</button>
     </div>

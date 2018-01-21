@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri();?>style.css">
   <link href="https://www.restaurantesaborbrasil.com.br">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script type="text/javascript" src="<?= wp_enqueue_script( 'jquery-3.2.1.min', get_template_directory_uri(). ' /jquery-3.2.1.min.js');?>/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="<?= wp_enqueue_script( 'javascript', get_template_directory_uri().' /javascript.js');?>/javascript.js"></script>

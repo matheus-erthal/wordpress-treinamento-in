@@ -1,5 +1,5 @@
 /*
-<<<<<<< HEAD
+
 Theme Name: Restaurante Sabor Brasil
 Author: Bárbara, Raul e Thales
 Description: Tema encomendado pelo Restaurante Sabor Brasil
@@ -38,7 +38,7 @@ Text Domain: Restaurante Sabor Brasil
   padding-top: 90px;
   position: relative;
   float:left;
-  width: 306px;
+  width: 300px;
   text-align: center;
 }
 
@@ -65,8 +65,8 @@ Text Domain: Restaurante Sabor Brasil
   transition: 0.3s;
 }
 
-.cabecalho-item img{
 
+.cabecalho-item img{
   margin-top: -95px;
   margin-bottom: -75px;
 }
@@ -94,10 +94,10 @@ Text Domain: Restaurante Sabor Brasil
 .container-img{
   background-color: #fada00;
   padding: 10px;
-  width: 440px;
+  width: 460px;
   float: left;
   margin-left: 10px;
-
+	margin-top: 30px;
 }
 .container-img img{
   width: 440px;
@@ -109,6 +109,7 @@ Text Domain: Restaurante Sabor Brasil
   width: 440px;
   margin: 0 15px;
   float: left;
+	margin-top: 30px;
 
 }
 
@@ -120,6 +121,84 @@ Text Domain: Restaurante Sabor Brasil
   padding: 20px;
   border: 1px solid #c2bebe;
   color: #454336;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* 3: HOME */
+
+.ph{
+	max-width: 1020px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.ph li{
+	list-style: none;
+	font-size: 0.8em;
+}
+
+.ph h1{
+	font-family: 'Oxygen Mono', monospace;
+	font-size: 2.25em;
+	text-align: center;
+	letter-spacing: -2px;
+	margin: 10px auto;
+}
+
+.ph h2{
+	font-size: 1.125em;
+	font-weight: bold;
+}
+.ph::after, .ph::before{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.ph-container{
+	background: #dddddd;
+	padding: 20px;
+	width: 300px;
+	float:left;
+	margin: 50px 10px;
+}
+
+.ph-container-imagens{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.ph-container-imagens::after, .ph-container-imagens::before{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.ph-container-blue{
+	border: 10px solid #006bb0;
+	width: 300px;
+	float:left;
+	margin: 0 10px;
+}
+
+.ph-container-yellow{
+	border: 10px solid #fbdb00;
+	width: 300px;
+	float:left;
+	margin: 0 10px;
+}
+
+.ph-container-green{
+	border: 10px solid #21c435;
+	width: 300px;
+	float:left;
+	margin: 0 10px;
+}
+.ph img{
+	width: 280px;
+}
+
+.ph-container-texto{
+	text-align: left;
 }
 /* ------------------------------------------------------------------------------------------ */
 
@@ -181,12 +260,6 @@ Text Domain: Restaurante Sabor Brasil
 
 /*  : CARROSEL
 
-Theme Name: Meu tema
-Author: Amanco e Bruna
-Description: Tema utilizado para o treinamento da IN Junior
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: meu-tema
+
 
 */
