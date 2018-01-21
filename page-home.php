@@ -48,17 +48,17 @@ get_header(); //chama o header//
         </section>
 
 
-       <section>
-          <div class="links">
-            <div class="links-container">
-                <ul>
-                  <li><a href="contato.html">Contate-nos</a></li>
-                  <li><a href="receitas.html">Receitas</a></li>
-                  <li><a href="blog.html">Nosso Blog</a></li>
-                </ul>
-            </div>
+      <section class="links">
+        <div class="links-container">
+          <div class="links-nav">
+              <ul>
+                <li><a href="contato.html">Contate-nos</a></li>
+                <li><a href="loja.html">Onde Estamos</a></li>
+                <li><a href="receita.html">Receitas</a></li>
+              </ul>
           </div>
-     </section>
+        </div>
+   </section>
 
 
 <?php get_footer(); ?>
