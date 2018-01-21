@@ -118,6 +118,8 @@ Text Domain: meu-tema
 
 .descricao-container{
 	padding-top: 80px;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .descricao-texto, .descricao img{
@@ -130,7 +132,7 @@ Text Domain: meu-tema
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 600;
 	float: right;
-	padding-right: 80px;
+	padding-right: 40px;
 	padding-top: 50px;
 }
 
@@ -148,7 +150,7 @@ Text Domain: meu-tema
 
 .descricao img{
 	float: left;
-	padding-left: 80px;
+	padding-left: 40px;
 }
 
 /* quem somos */
@@ -253,14 +255,12 @@ Text Domain: meu-tema
 	max-width: 360px;
 	text-align: center;
 	line-height: 18px;
-
 	display: inline-block;
 }
 
 .footer-meio{
 	text-align: center;
 	line-height: 18px;
-
 	display: inline-block;
 	margin: 0 68px;
 }
