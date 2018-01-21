@@ -103,10 +103,23 @@ get_header();
 </section>
 
 <section class="proposito">
-	<h2>Nosso propósito</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
-	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	<div class="proposito-container">
+		<h2>Nosso propósito</h2>
+
+		<div class="proposito-item">
+			<h3>Missão</h3>
+			<p>Satisfazer o cliente através da entrega constante de projetos por profissionais realizados.</p>
+		</div>
+		<div class="proposito-item">
+			<h3>Valores</h3>
+			<p>Sorriso no rosto :D <br> Trabalhar em alcateia <br>
+			Proatividade Codar por amor <br> Espírito Alpha</p>
+		</div>
+		<div class="proposito-item">
+			<h3>Visão</h3>
+			<p>Ser a EJ de TI com maior entrega de projetos de qualidade.</p>
+		</div>
+	</div>
 </section>
 
 <section class="contato">
