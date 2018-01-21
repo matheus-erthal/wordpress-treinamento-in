@@ -46,12 +46,11 @@ Text Domain: meu-tema
 	padding: 0;
 }
 
+
 /* funcoes */
 
-.aparecer{
-	opacity: 1;
-	transition: 1.0s;
-}
+
+
 
 /* menu */
 
@@ -63,7 +62,6 @@ Text Domain: meu-tema
 	position: fixed;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-
 	position: fixed;
 	z-index: 99;
 
@@ -106,45 +104,51 @@ Text Domain: meu-tema
 
 /* descricao */
 
+.background{
+	background: no-repeat center center;
+	background-size: cover;
+}
+
 .descricao{
 	height: 88vh;
-	max-width: 960px;
 	overflow: auto;
 	margin: 0 auto;
-	/*opacity: 0;
-	transition: 1.0s;*/
+	
 }
 
 .descricao-container{
 	padding-top: 80px;
 }
 
-.descricao-texto{
-	color: #360087;
-	max-width: 460px;
-	float: left;
-	padding-left: 20px;
-	padding-top: 50px;
-	font-family: 'Roboto Condensed', sans-serif;
+.descricao-texto, .descricao img{
+	opacity: 0;
+	transition: 1.0s;
 }
 
-.descricao-texto h2{
+.descricao-texto{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	float: right;
+	padding-right: 80px;
+	padding-top: 50px;
+}
+
+.descricao-texto h1{
 	padding-bottom: 20px;
 	text-align: center;
 }
 
 .descricao-texto p{
 	max-width: 460px;
-	line-height: 30px;
-	font-size: 1.25em;
+	line-height: 32px;
+	font-size: 1.3em;
 	text-align: center;
 }
 
 .descricao img{
-	max-width: 460px;
-	float: right;
-	padding-right: 20px;
-
+	float: left;
+	padding-left: 80px;
 }
 
 /* quem somos */
@@ -152,12 +156,12 @@ Text Domain: meu-tema
 .quem-somos{
 	background: #BDCEFA;
 	text-align: center;
-	height: 88vh;
-
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .quem-somos h2{
 	color: white;
+	padding: 20px 0;
 }
 
 .carousel-item img{
@@ -165,54 +169,58 @@ Text Domain: meu-tema
 	position:relative;
 	height: 400px;
 	z-index: 1;
-	
 }
 
+.quem-somos p{
+	padding: 20px 0;
+}
 
 /* projetos */
 
 .projetos{
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 }
+
 .carousel-item img{
 	max-width:500px;
 	position:relative;
 	height: 400px;
 	z-index: 1;
+}
+
+.carousel-control-prev{
+	color: black;
 }
 
 /* proposito */
 
 .proposito{
 	background: #BDCEFA;
-	margin-top: 10px;
+	padding: 20px 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 280px;
 }
 
 .proposito h2{
 	color: white;
 	text-align: center;
+	padding-bottom: 20px;
 }
+
+.proposito-container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 .proposito-item{
 	width: 300px;
-	display: inline-block;
-	margin: 0px 8px;
-
-}
-
-
-
-.proposito-item h2{
+	float: left;
+	margin: 0 10px;
 	text-align: center;
-	font-size: 2.25em;
-	margin-bottom: 20px;
-
 }
 
 
-
-.proposito-item p{
-	font-size: 0.875em;
-	line-height: 1.4em;
 
 }
 
@@ -222,6 +230,7 @@ Text Domain: meu-tema
 
 .contato{
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .contato-mailer{
 	margin-left: 50px;
@@ -270,7 +279,7 @@ Text Domain: meu-tema
 	max-width: 960px;
 	height: 128px;
 	margin: 0 auto;
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 .footer-esquerda{
@@ -314,5 +323,12 @@ Text Domain: meu-tema
 
 	float: right;
 	display: inline-block;
+}
+
+/* funcoes do js*/
+
+.aparecer{
+	opacity: 1 !important;
+	transition: 1.0s;
 }
 
