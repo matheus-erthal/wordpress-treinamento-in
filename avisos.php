@@ -1,4 +1,4 @@
-<?php /* Template Name: noticias */ ?>
+<?php /* Template Name: avisos */ ?>
 <?php
 /**
  *
@@ -7,7 +7,6 @@
  * @since 1.0
  * @version 1.0
  */
-
 get_header(); ?>
 <div class="painel-master">
   <!--<div class="painel-borda"> -->
@@ -34,7 +33,8 @@ get_header(); ?>
                 </div>
           <?php endwhile; ?>
     <?php endif; ?>
-  <!-- </div> -->
+
+  
 </div>
 <div><button class="back-to-top">Suba ao topo</button></div>
 <?php get_footer();
