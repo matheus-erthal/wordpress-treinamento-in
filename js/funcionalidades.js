@@ -2,6 +2,8 @@
 //{
 $(document).ready( function()
 {
+	var local_atual = window.location.pathname;
+	//alert(caminho);
 
 	$(window).scroll(function() 
 	{
@@ -29,25 +31,57 @@ $(document).ready( function()
 
 			if(idItem == '#Quem_somos')
 			{
-				$('html, body').animate({scrollTop: ($('.quem-somos').offset().top-120)}, 500);
+				if(local_atual == '/wordpress/index.php/nova-pagina-de-testes/')
+				{
+					$('html, body').animate({scrollTop: ($('.quem-somos').offset().top-120)}, 500);
+				}
+				else
+				{
+					window.location.href="/wordpress/index.php/nova-pagina-de-testes/";	
+					//$('html, body').animate({scrollTop: ($('.quem-somos').offset().top-120)}, 500);			
+				}			
 			}
 			else
 			{
 				if(idItem == '#Nossos_projetos')
 				{
-					$('html, body').animate({scrollTop: ($('.projetos').offset().top-10)}, 500);
+					if(local_atual == '/wordpress/index.php/nova-pagina-de-testes/')
+					{
+						$('html, body').animate({scrollTop: ($('.projetos').offset().top-130)}, 500);
+					}
+					else
+					{
+						window.location.href="/wordpress/index.php/nova-pagina-de-testes/";	
+						//$('html, body').animate({scrollTop: ($('.projetos').offset().top-130)}, 500);			
+					}	
 				}
 				else
 				{
 					if(idItem == '#Nosso_proposito')
 					{
-						$('html, body').animate({scrollTop: ($('.proposito').offset().top-100)}, 500);						
+						if(local_atual == '/wordpress/index.php/nova-pagina-de-testes/')
+						{
+							$('html, body').animate({scrollTop: ($('.proposito').offset().top-110)}, 500);
+						}
+						else
+						{
+							window.location.href="/wordpress/index.php/nova-pagina-de-testes/";	
+							//$('html, body').animate({scrollTop: ($('.proposito').offset().top-110)}, 500);			
+						}	
 					}
 					else
 					{
 						if(idItem == '#Contato')
 						{
-							$('html, body').animate({scrollTop: ($('.contato').offset().top-100)}, 500);
+							if(local_atual == '/wordpress/index.php/nova-pagina-de-testes/')
+							{
+								$('html, body').animate({scrollTop: ($('.contato').offset().top-100)}, 500);
+							}
+							else
+							{
+								window.location.href="/wordpress/index.php/nova-pagina-de-testes/";	
+								//$('html, body').animate({scrollTop: ($('.contato').offset().top-100)}, 500);			
+							}	
 						}
 					}				
 				}			

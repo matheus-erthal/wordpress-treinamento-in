@@ -42,7 +42,8 @@
 					<li><a href="#Nossos_projetos">Nossos projetos</a></li>
 					<li><a href="#Nosso_proposito">Nosso propósito</a></li>
 					<li><a href="#Contato">Contato</a></li>
-					<li><a href="#Blog">Blog</a></li>
+					<!---<li><a href="#Blog">Blog</a></li>-->
+					<li><a href="http://localhost/wordpress/index.php/sample-page/">Blog</a></li>
 				</ul>
 			</nav>
 		</div>

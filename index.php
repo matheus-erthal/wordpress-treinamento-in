@@ -9,11 +9,13 @@
 
 get_header(); ?>
 
+
 <?php //The Query 
 $nossa_query = new WP_Query( array('posts_type' => notas) );
 ?>
 
 <h1>Blog Grupo 4</h1>
+
 
 <?php if ($nossa_query -> have_posts()): ?>
     
