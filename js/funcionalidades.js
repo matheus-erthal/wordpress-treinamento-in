@@ -33,7 +33,7 @@ $(document).ready( function()
 			{
 				if(local_atual == '/wordpress/index.php/nova-pagina-de-testes/')
 				{
-					$('html, body').animate({scrollTop: ($('.quem-somos').offset().top-120)}, 500);
+					$('html, body').animate({scrollTop: ($('.quem-somos').offset().top-110)}, 500);
 				}
 				else
 				{

@@ -47,11 +47,6 @@ Text Domain: meu-tema
 }
 
 
-/* funcoes */
-
-
-
-
 /* menu */
 
 .menu{
@@ -150,7 +145,7 @@ Text Domain: meu-tema
 
 .descricao img{
 	float: left;
-	float: left;
+
 	padding-left: 40px;
 }
 
@@ -223,49 +218,48 @@ Text Domain: meu-tema
 	text-align: center;
 }
 
-
-
-}
-
-
-
 /* contato */
 
 .contato{
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
+	height: 480px;
+	max-width: 960px;
+	margin: 0 auto;
 }
-.contato-mailer{
-	margin-left: 50px;
 
+.contato h2{
+	padding-top: 10px;
 }
+
 .contato img{
-	float: right;
+	max-width: 340px;
+	float: left;
+	margin: 60px;
 }
 
-
+.contato-mailer{
+	float: right;
+	margin: 20px 80px;
+}
 
 .row input{
 	margin: 10px;
 
 }
 .row textarea{
-	padding: 20px;
 	margin: 10px;
 
 }
+
 .row label{
-	margin: 10px;
-	width: 100%;
-	text-align: left;
-
+	display: none;
 }
- .botao{
+
+.botao{
  	float: left;
  	
- }
-
-
+}
 
 /* footer */
 
@@ -289,14 +283,12 @@ Text Domain: meu-tema
 	max-width: 360px;
 	text-align: center;
 	line-height: 18px;
-
 	display: inline-block;
 }
 
 .footer-meio{
 	text-align: center;
 	line-height: 18px;
-
 	display: inline-block;
 	margin: 0 68px;
 }
@@ -323,7 +315,6 @@ Text Domain: meu-tema
 
 .footer img{
 	width: 100px;
-
 	float: right;
 	display: inline-block;
 }
