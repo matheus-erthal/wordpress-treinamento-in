@@ -222,9 +222,11 @@ Text Domain: meu-tema
 	text-align: center;
 }
 
-.proposito-item h3{
-	font-size: 1.4em;
+
+
 }
+
+
 
 /* contato */
 
@@ -232,6 +234,37 @@ Text Domain: meu-tema
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+.contato-mailer{
+	margin-left: 50px;
+
+}
+.contato img{
+	float: right;
+}
+
+
+
+.row input{
+	margin: 10px;
+
+}
+.row textarea{
+	padding: 20px;
+	margin: 10px;
+
+}
+.row label{
+	margin: 10px;
+	width: 100%;
+	text-align: left;
+
+}
+ .botao{
+ 	float: left;
+ 	
+ }
+
+
 
 /* footer */
 
