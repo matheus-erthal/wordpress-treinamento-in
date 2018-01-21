@@ -8,6 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: meu-tema
 */
 
+
 *{
 	margin: 0;
 	padding: 0;
@@ -16,6 +17,8 @@ Text Domain: meu-tema
 body{
 	background-color: #fcf0da;
 }
+
+/* ---- Header ---- */
 
 .menu{
 	position: fixed;
@@ -63,6 +66,7 @@ body{
 	display: block;
 }
 
+/* ---- Pagina Home ----*/
 .intro{
 	bottom: -78px;
 	text-align: center;
@@ -158,19 +162,147 @@ body{
 	margin: 20px 150px;
 	display: inline-block;
 }
+
+/*----Pagina Sobre ----*/
+
 .conteudo{
 	margin: 0 auto;
 }
 .conteudo-container{
 	float: left;
 	margin: 0 auto;
-}
-
-.conteudo-container img{
 	width: 100%;
 }
-.conteudo-container p{
+.conteudo-container::after, .conteudo-container::before{
+	content: '';
+	display: table;
+	clear: both;
 }
+
+.conteudo-nav img{
+	width: 100%;
+}
+.conteudo-nav h2{
+	text-align: center;
+	font-size: 2em;
+	margin: 30px 0;
+}
+.conteudo-nav p{
+	max-width: 700px;
+	text-align: center;
+	font-size: 1.125em;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+/*----Pagina Contato----*/
+
+.contato{
+	max-width: 460px;
+	float: left;
+	padding: 200px;	
+}
+
+.formulario{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.formulario label{
+	display: none;
+}
+
+.formulario input{
+	margin: 20px 50px;
+	font-size: 1.125em;
+	color: black;
+	padding: 5px 5px;
+	border: 3px solid #f5c9aa;
+	width: 300px;
+}
+
+.formulario #texto{
+	padding: 75px 5px;
+	width: 400px;
+	text-align: start;
+}
+
+.formulario button{
+	margin: 20px 50px;
+	border: 3px solid #f5c9aa;
+	background-color: #fcf0da;
+	padding: 10px;
+	font-size: 1.125em;	
+}
+
+.info{
+	float: left;
+	margin: 0 auto;
+}
+
+.info-container{
+	padding-top: 150px;
+}
+
+.info-container img{
+	width: 400px;
+	height: 300px;
+}
+
+.info-container p{
+	font-size: 1.125em;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0;
+	color: black;
+	font-weight: bold;
+}
+
+/*----Pagina Onde Estamos----*/
+
+.local{
+	width: 100%;
+	float: right;
+}
+
+/* ---- Pagina Receitas ----- */
+
+.receitas{
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.direita{
+	float: right;
+	padding: 30px;
+}
+
+.direita p{
+	float: left;
+	padding: 50px 60px;
+}
+
+.direita h2{
+	float: left;
+}
+
+.esquerda{
+	float: left;
+	margin: 40px;
+	padding: 30px;
+}
+
+.esquerda p{
+	float: right;
+	padding: 50px 60px;
+}
+
+.esquerda h2{
+	float: right;
+	margin: 0 -50px;
+}
+
+/*----footer----*/
 
 .links{
 	margin: 0px auto;
@@ -243,6 +375,6 @@ body{
 .footer-container img{
 	float: right;
 	width: 10%;
-	padding: 30px;
-	margin: -80px 10px;
+	padding: 0 30px;
+	margin: -50px 20px;
 }
