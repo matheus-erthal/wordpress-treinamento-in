@@ -10,21 +10,26 @@
 
 get_header(); ?>
 
-<button class="accordion-lista">Section 1</button>
-<div class="panel">
-  <p>2018</p>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
 
-<button class="accordion-lista">Section 2</button>
-<div class="panel">
-  <p>2018</p>
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
 </div>
 
-<button class="accordion-lista">Section 3</button>
-<div class="panel">
-  <p>2018 </p>
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
 </div>
 
-<div><button class="back-to-top">Suba ao topo</button></div>
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
 
 <?php get_footer();

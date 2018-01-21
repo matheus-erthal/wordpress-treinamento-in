@@ -46,7 +46,6 @@ html {
     min-height: 100%;
 }
 body {
-    margin: 0 0 60px; /* altura do seu footer */
 }
 
 .customize-support{
@@ -464,29 +463,34 @@ input::-webkit-inner-spin-button {
 .mensagem{
 		display: none;
 }
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion-lista {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
     border: none;
     outline: none;
-    transition: 0.4s;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
 }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion-lista:hover {
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+/* Create an active/current tablink class */
+.tab button.active {
     background-color: #ccc;
 }
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: white;
+/* Style the tab content */
+.tabcontent {
     display: none;
-    overflow: hidden;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
