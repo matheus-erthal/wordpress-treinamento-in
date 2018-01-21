@@ -473,21 +473,16 @@ input::-webkit-inner-spin-button {
 
 
 .painel-master{
-		margin-bottom: 350px;
-		font-family: 'Quicksand', sans-serif;
 
+		font-family: 'Quicksand', sans-serif;
+		margin-bottom: 270px;
+		margin-top: 50px;
 }
 
 .painel{
-		margin: 50px auto;
+		margin: 0px auto;
 		display: block;
 		max-width: 960px;
-		margin-bottom: -50px;
-
-}
-
-.painel-borda{
-
 }
 
 .painel-botao{
@@ -516,7 +511,7 @@ input::-webkit-inner-spin-button {
 
 .painel-titulo{
 		float: left;
-		margin-left: 10px;
+		margin-left: 30px;
 }
 .painel-container{
 		padding: 18px;
