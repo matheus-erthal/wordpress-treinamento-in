@@ -33,8 +33,8 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Turmas</a></li>
-          <li><a href="#">Calculadora</a></li>
-          <li><a href="#">Sobre</a></li>
+          <li><a href="http://localhost/wordpress/calculadora/">Calculadora</a></li>
+          <li><a href="http://localhost/wordpress/sobre/">Sobre</a></li>
         </ul>
       </nav>
   </div>

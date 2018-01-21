@@ -7,7 +7,7 @@ $(document).ready(function(){
 			$('.back-to-top').fadeOut();
 		}
 	});
-	
+
 	$('.back-to-top').click(function(){
 		$('html').animate({scrollTop: 0}, 500);
 	});
@@ -21,5 +21,25 @@ $(document).ready(function(){
 		$('.mensagem').fadeIn(1000);
 		$('.assinatura').fadeIn(1000);
 	});
+
+//accordion dos avisos
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	    acc[i].addEventListener("click", function() {
+	        /* Toggle between adding and removing the "active" class,
+	        to highlight the button that controls the panel */
+	        this.classList.toggle("active");
+
+	        /* Toggle between hiding and showing the active panel */
+	        var panel = this.nextElementSibling;
+	        if (panel.style.display === "block") {
+	            panel.style.display = "none";
+	        } else {
+	            panel.style.display = "block";
+	        }
+	    });
+	}
 
 });
