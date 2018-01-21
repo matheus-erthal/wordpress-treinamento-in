@@ -9,23 +9,23 @@ Text Domain: meu-tema
 */
 
 /**
-	* Sumário
+	* Sumario
 	*
 	* 1.0 Reset
-	*	2.0 Botão de back-to-top
+	*	2.0 Botao de back-to-top
 	* 3.0 Header
 	*			3.1 Menu Container
 	*			3.2 Titulo
-	*			3.3 Menu de Navegação
+	*			3.3 Menu de Navegacoo
 	* 4.0 Footer
 	*			4.1 Footer Container
 	*			4.2 Contato
 	*			4.3 Redes Sociais
-	* 5.0 Página Sobre
-	* 6.0 Página Calculadora
+	* 5.0 Pagina Sobre
+	* 6.0 Pagina Calculadora
 	*			6.1 Notas Container
 	* 		6.2 Botão para Calcular
-	*			6.3 Área de Textos de Motivação
+	*			6.3 Area de Textos de Motivacao
 	*			6.4 Funcionalidades
 
 **/
@@ -46,7 +46,7 @@ html {
     min-height: 100%;
 }
 body {
-    margin: 0 0 60px; /* altura do seu footer */
+    margin: 0 0 60px;
 }
 
 .customize-support{
@@ -55,7 +55,7 @@ body {
 
 
 /**
- 	* 2.0 Botão de back-to-top
+ 	* 2.0 Botao de back-to-top
 **/
 
 
@@ -141,11 +141,12 @@ header{
 		text-decoration: none;
 		font-size: 4em;
 		margin: -30px auto;
+		cursor: default;
 }
 
 
 /**
-	* 3.3 Menu de Navegação
+	* 3.3 Menu de Navegacao
 **/
 
 
@@ -166,7 +167,7 @@ header{
 		margin-left: 30px;
 }
 
-.menu li a::after{ /* desenha o "traço" após o h1 usando pseudo-elemento*/
+.menu li a::after{
 	  content: "";
 	  color: white;
 	  display: block;
@@ -284,7 +285,7 @@ footer p{
 
 
 /**
-	* 5.0 Página Sobre
+	* 5.0 Pagina Sobre
 **/
 
 
@@ -319,7 +320,7 @@ footer p{
 
 
 /**
- 	* 6.0 Página Calculadora
+ 	* 6.0 Pagina Calculadora
 **/
 
 
@@ -385,7 +386,7 @@ input {
 
 
 /**
-	* 6.2 Botão para Calcular
+	* 6.2 Botao para Calcular
 **/
 
 
@@ -417,7 +418,7 @@ input {
 
 
 /**
-	* 6.3 Área de Textos de Motivação
+	* 6.3 Area de Textos de Motivacao
 **/
 
 
@@ -465,28 +466,69 @@ input::-webkit-inner-spin-button {
 		display: none;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion-lista {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
+
+/**
+	* 7.0 Avisos
+**/
+
+
+.painel-master{
+		margin-bottom: 350px;
+		font-family: 'Quicksand', sans-serif;
+
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion-lista:hover {
-    background-color: #ccc;
+.painel{
+		margin: 50px auto;
+		display: block;
+		max-width: 960px;
+		margin-bottom: -50px;
+
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
+.painel-borda{
+
+}
+
+.painel-botao{
+		background: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 20px;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: 0.4s;
+		padding-bottom: 40px;
+		border: 2px solid #FEF7EE;
+		border-top: 0;
+}
+
+.painel-botao:hover{
+		background: #da8a1b;
+}
+
+.painel-data{
+		float: left;
+		width: 150px;
+		border-right: 1px solid black;
+}
+
+.painel-titulo{
+		float: left;
+		margin-left: 10px;
+}
+.painel-container{
+		padding: 18px;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+		max-width: 960px;
+		border-bottom: 5px solid #FEF7EE;
+		margin-left: 2px;
+		margin-right: 2px;
+}
+
+.painel-para{
+		display: none;
 }
