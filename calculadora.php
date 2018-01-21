@@ -24,5 +24,4 @@ get_header(); ?>
 		<p class="assinatura"> - Minerva MacGonagall.</p>
 	</div>
 </div>
-
 <?php get_footer();
