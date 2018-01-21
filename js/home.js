@@ -49,9 +49,14 @@ $(document).ready(function(){
 
 	for(i = 0; i < acc.length; i++){
 		acc[i].addEventListener("click", function(){
+			var idItem = $(this).attr("href");
+			$(idItem).removeClass(".active");
+
 			this.classList.toggle(".active");
 			var $painel = this.nextElementSibling;
+
 			if($painel.style.display === "block"){
+				$(idItem).removeClass(".active");
 				$painel.style.display = "none";
 			} else {
 				$painel.style.display = "block";
