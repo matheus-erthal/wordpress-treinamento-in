@@ -2,7 +2,9 @@
 
 <?php while(have_posts()) : the_post(); ?>
     
-    <h1>teste</h1>
+    <h2><?php the_title(); ?></h2>
+
+    <a href="<?php the_field('arquivo_notas') ?>" download>Faça download aqui!</a>
 
 <?php endwhile; ?>
 
