@@ -30,7 +30,7 @@ function cadastrando_post_type_turmas() {
     );
 
 
-    register_post_type( 'turmas', $args);
+    register_post_type( 'notas', $args);
 }
 
-add_action('init', 'cadastrando_post_type_turmas');
+add_action('init', 'cadastrando_post_type_notas');

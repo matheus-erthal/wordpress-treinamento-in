@@ -9,7 +9,6 @@
  */
 get_header(); ?>
 <div class="painel-master">
-  <!--<div class="painel-borda"> -->
     <?php $query_posts = new WP_Query(array('category_name' => 'avisos')) ?>
         <?php if ($query_posts->have_posts()): ?>
             <?php while($query_posts->have_posts()): $query_posts->the_post(); ?>
@@ -33,12 +32,6 @@ get_header(); ?>
                 </div>
           <?php endwhile; ?>
     <?php endif; ?>
-
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
 
 <!-- Tab content -->
 <div id="London" class="tabcontent">
