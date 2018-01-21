@@ -8,3 +8,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: meu-tema
 */
 
+.navbar-brand{
+    font-family: 'Supermercado One', cursive;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+}
