@@ -222,13 +222,24 @@ Text Domain: meu-tema
 .contato{
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
+	height: 480px;
+	max-width: 960px;
+	margin: 0 auto;
 }
-.contato-mailer{
-	margin-left: 50px;
 
+.contato h2{
+	padding-top: 10px;
 }
+
 .contato img{
+	max-width: 340px;
+	float: left;
+	margin: 60px;
+}
+
+.contato-mailer{
 	float: right;
+	margin: 20px 80px;
 }
 
 .row input{
@@ -236,21 +247,18 @@ Text Domain: meu-tema
 
 }
 .row textarea{
-	padding: 20px;
 	margin: 10px;
 
 }
 
 .row label{
-	margin: 10px;
-	width: 100%;
-	text-align: left;
-
+	display: none;
 }
- .botao{
+
+.botao{
  	float: left;
  	
- }
+}
 
 /* footer */
 
