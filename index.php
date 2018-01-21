@@ -10,14 +10,17 @@
 get_header(); ?>
 
 <?php //The Query 
-$nossa_query = new WP_Query( array('posts_type' => notas) );
+$nossa_query = new WP_Query( array("posts_per_page" => 5) );
 ?>
 
 <h1>Blog Grupo 4</h1>
 
+
+
 <?php if ($nossa_query -> have_posts()): ?>
     
     <?php while($nossa_query -> have_posts()): ?>
+
     
         <?php $nossa_query -> the_post(); ?>
 	
@@ -27,6 +30,29 @@ $nossa_query = new WP_Query( array('posts_type' => notas) );
 
     <?php endwhile; ?>
 <?php endif; ?>
+
+
+<?php
+			if ( have_posts() ) :
+
+				while ( have_posts() ) : the_post();
+
+					get_template_part( 'template-parts/post/content', get_post_format() );
+
+				endwhile;
+
+				the_posts_pagination( array(
+					'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous post', 'twentyseventeen' ) . '</span>',
+					'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'twentyseventeen' ) . '</span>' . twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ),
+					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'post', 'twentyseventeen' ) . ' </span>',
+				) );
+
+			else :
+
+				get_template_part( 'template-parts/post/content', 'none' );
+
+			endif;
+			?>
 
 <?php get_footer();
 
