@@ -146,7 +146,7 @@ get_header();
 				<textarea id="message" class="input" name="message" rows="10" cols="30" placeholder="Mensagem"></textarea><br>
 			</div>
 
-			<p><input id="submit_button" class="botao" type="submit" value="ENVIAR"/></p>
+			<p><input id="submit_button" class="botao" type="submit" value="enviar"/></p>
 
 		</form>           
 

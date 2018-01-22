@@ -111,6 +111,13 @@ Text Domain: meu-tema
 	
 }
 
+.descricao::after, .descricao::before{
+	content:'';
+	display: table;
+	clear: both;
+}
+
+
 .descricao-container{
 	padding-top: 80px;
 	max-width: 960px;
@@ -197,13 +204,18 @@ Text Domain: meu-tema
 	background: #BDCEFA;
 	padding: 20px 0;
 	font-family: 'Roboto Condensed', sans-serif;
-	height: 280px;
 }
 
 .proposito h2{
 	color: white;
 	text-align: center;
 	padding-bottom: 20px;
+}
+
+.proposito::after, .proposito::before{
+	content:'';
+	display: table;
+	clear: both;
 }
 
 .proposito-container{
@@ -223,9 +235,14 @@ Text Domain: meu-tema
 .contato{
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
-	height: 480px;
 	max-width: 960px;
-	margin: 0 auto;
+	margin: 10px auto;
+}
+
+.contato::after, .contato::before{
+	content:'';
+	display: table;
+	clear: both;
 }
 
 .contato h2{
@@ -240,15 +257,20 @@ Text Domain: meu-tema
 
 .contato-mailer{
 	float: right;
-	margin: 20px 80px;
+	margin: 10px 40px 20px 40px;
+	padding: 10px 40px;
+	border: 3px solid #BDCEFA;
+	background: #BDCEFA; 	
 }
 
 .row input{
 	margin: 10px;
+	width: 250px; 
 
 }
 .row textarea{
 	margin: 10px;
+	width: 250px; 
 
 }
 
@@ -257,8 +279,19 @@ Text Domain: meu-tema
 }
 
 .botao{
- 	float: left;
- 	
+ 	float: right;
+	background: #0066cc;
+	border: none;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px;
+ 	cursor: pointer;
+	transition: 0.5s;
+}
+
+.botao:hover{
+	background: #003366;
+	transition: 0.5s;
 }
 
 /* footer */
