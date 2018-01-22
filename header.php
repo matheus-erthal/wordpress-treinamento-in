@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 	
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/style.css">
+	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/blogstyle.css">
 	<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/JavaScript/jquery-3.2.1.min.js"></script>
   	<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/JavaScript/behavior.js"></script>
 
@@ -31,7 +32,7 @@
 				<li><a href="projetos">Projetos</a></li>
 				<li><a href="proposito">Nosso propósito</a></li>
 				<li><a href="contato">Contato</a></li>
-				<li><a href="top">Blog</a></li>
+				<li><a href="http://localhost/wordpress/?page_id=77">Blog</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -2,7 +2,6 @@ var scrollBoolean = 0;
 var i = 0;
 
 $(document).ready(function(){
-
   //Comando de clickar no botao dá scroll. Ela leva em consideração se você está no topo e, portanto, o display do top entra ou não no calculo do scrollTop
   $("li a").click(function(){
     event.preventDefault();

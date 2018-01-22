@@ -1,0 +1,75 @@
+/*
+Theme Name: Home Template
+Author: Letícia, Marcelo e Pedro Souza
+Description: Tema utilizado para o treinamento da IN Junior
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meu-tema
+*/
+
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+section {
+	height: 100vh;
+}
+
+/* CSS DO BLOG */
+
+/* POSTS */
+
+.posts {
+	background: #ECEBEA;
+	text-align: justify;
+	padding: 40px 200px;
+}
+
+.posts-container {
+	margin: 50px 0px;
+}
+
+.posts-container h2 {
+	padding: 20px 0;
+	font-size: 2em;
+}
+
+.posts-container p {
+	padding: 10px 0;
+	font-size: 0.9em;
+	line-height: 1.3em;
+}
+.posts-container a {
+	text-decoration: none;
+	color: #000;
+}
+
+.recentes , .anteriores {
+	text-decoration: none;
+	color: #000;
+}
+
+/* SINGLE POST */ 
+.post {
+	background: #ECEBEA;
+	text-align: justify;
+	padding: 40px 200px;
+}
+
+.post h2{
+	padding: 20px 0;
+	font-size: 3em;
+}
+
+.post p{
+	padding-bottom: 20px;
+}
+
+/* ARCHIVES */
+

@@ -12,6 +12,9 @@
 
 ?>
 
+<?php 
+get_header();
+?>
 
 <section class="post">
 <?php
@@ -25,4 +28,6 @@ if ( have_posts() ) :
 <?php endif; ?>
 </section>
 
-<?php get_footer();
+<?php 
+get_footer();
+?>
