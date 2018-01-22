@@ -80,6 +80,12 @@ Text Domain: meu-tema
 	padding: 5px 0;
 }
 
+.menu-container::after{
+	content:'';
+	display: table;
+	clear: both;
+}
+
 .menu-nav ul{
 	float: right;
 }
@@ -304,6 +310,12 @@ Text Domain: meu-tema
 
 }
 
+.footer-container::after, .footer-container::before{
+	content:'';
+	display: table;
+	clear: both;
+}
+
 .footer-container{
 	max-width: 960px;
 	height: 128px;
@@ -356,5 +368,17 @@ Text Domain: meu-tema
 .aparecer{
 	opacity: 1 !important;
 	transition: 1.0s;
+}
+
+
+/* BLOG */
+
+.blog-post{
+	max-width: 960px;
+	padding: 100px 20px;
+}
+
+.blog-title{
+	color: #0066cc;	
 }
 
