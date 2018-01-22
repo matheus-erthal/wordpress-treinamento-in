@@ -292,14 +292,14 @@ body{
 	float: left;
 	word-wrap: break-word;
     width: 350px;
-    left: 800px;
+    left: 490px;
     margin-top: -250px;
     position: absolute;
 }
 
 .direita h2{
 	float: left;
-	left: 60px;
+	left: -30px;
 	position: relative;
 }
 
