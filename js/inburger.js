@@ -8,12 +8,6 @@ $(document).ready(function(){
   
 	  $(sliderClass + ' > :first').addClass(activeClass);
   
-	  $(sliderClass).hover(function(){
-		  clearInterval(rotate);
-	  }, function() {
-		  rotate = setInterval(rotateSlide, velocidade);
-	  });
-  
 	  function rotateSlide() {
 		  var activeSlide = $(sliderClass + ' > .' + activeClass),
 				  nextSlide = activeSlide.next();
@@ -38,5 +32,7 @@ $(document).ready(function(){
 		$("#botao2").addClass("aparecer");
 	});
   });
-		
+
+	
+
 
