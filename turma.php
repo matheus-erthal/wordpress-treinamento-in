@@ -47,7 +47,7 @@ get_header(); ?>
 
       <?php if (have_posts()): ?> <!-- Ainda não funciona, vou resolver mais tarde com Amanco -->
           <?php while(have_posts()): ?>
-            <h2> CARALHOOOOOOOOOO </h2>
+            <h2> AAAAAAAAAAAAAAAAAA </h2>
                 <?php the_post(); ?>
                 <?php the_field('alunos'); ?> <!-- Alunos -->
                 <?php the_field('descricao'); ?> <!-- Descricao -->
