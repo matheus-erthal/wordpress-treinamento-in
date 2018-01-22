@@ -4,8 +4,8 @@
 get_header();
 
 ?>
-
-<section>
+<div class="tudo">
+    <section>
         <div class="receitas">
             <div class="esquerda">
                 <img id = "principal" src= "<?= get_template_directory_uri(); ?>/img/receita1.jpg">

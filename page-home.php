@@ -5,8 +5,7 @@
 get_header(); //chama o header//
 
 ?>
-
-<section> 
+    <section> 
           <div class="intro slide">
              <div class = "img-container">
                    <img src= "<?= get_template_directory_uri(); ?>/img/slide/hamburguer.jpg" alt="hamburguer">
@@ -30,20 +29,20 @@ get_header(); //chama o header//
         </section>
 
         <section class = "indice">
-          <div class = "indice-container">
-            <div class = "indice-img">
-                <img src = "<?= get_template_directory_uri(); ?>/img/indice1.png" alt = "Sobre Nós">
-                <a href = "#">Saiba Mais</a>
-            </div>
+        <div class = "indice-container">
+          <div class = "indice-img">
+              <img id = "img1" src = "<?= get_template_directory_uri(); ?>/img/indice1.png" alt = "Sobre Nós">
+              <a id = "botao1" href = "sobre.html">Sobre Nós</a>
           </div>
+        </div>
 
-          <div class = "indice-container">
-            <div class = "indice-img">   
-                <img src = "<?= get_template_directory_uri(); ?>/img/indice2.png" alt = "Onde Estamos">
-                <a href = "#">Saiba Mais</a>
-              </div>  
-          </div>
-        </section>
+        <div class = "indice-container">
+          <div class = "indice-img">   
+              <img id = "img2" src = "<?= get_template_directory_uri(); ?>/img/indice2.png" alt = "Onde Estamos">
+              <a id = "botao2" href = "loja.html">Onde Estamos</a>
+            </div>  
+        </div>  
+      </section>
 
 
       <section class="links">
@@ -57,6 +56,7 @@ get_header(); //chama o header//
           </div>
         </div>
    </section>
+</div>
 
 
 <?php get_footer(); ?>

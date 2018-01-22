@@ -14,6 +14,7 @@
         <img src = "<?= get_template_directory_uri(); ?>/img/logooficial.png" alt="InBurguer">
       </div>
     </footer>
+    </div>
   </body>
 </html>
 

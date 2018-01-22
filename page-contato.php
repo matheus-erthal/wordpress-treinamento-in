@@ -4,6 +4,7 @@ get_header();
 
 ?>
 
+<div class="tudo">
 <section class="contato">
         <div class="formulario">
             <form id="contact" method="post">
