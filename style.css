@@ -377,9 +377,14 @@ Text Domain: meu-tema
 .blog-post{
 	max-width: 960px;
 	padding: 100px 20px;
+	margin: 0 auto;
 }
 
-.blog-title{
+.blog-post-item{
+	margin: 20px 40px;
+}
+
+.blog-title h2{
 	color: #0066cc;	
 }
 

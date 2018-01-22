@@ -22,17 +22,20 @@ $nossa_query = new WP_Query( array('posts_type' => notas) );
   	  <?php while($nossa_query -> have_posts()): ?>
     
         	<?php $nossa_query -> the_post(); ?>
-
-		<div class="blog-title">	
-			<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2> </a>
+		<div class="blog-post-item">
+			<div class="blog-title">	
+				<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2> </a>
+			</div>
+			<div class="blog-text">
+				<p><?php the_content(); ?></p>
+			</div>
 		</div>
-		<div class="blog-text">
-			<p><?php the_content(); ?></p>
-		</div>
-
     	<?php endwhile; ?>
 	<?php endif; ?>
 </div>
+
+
+
 
 
 
