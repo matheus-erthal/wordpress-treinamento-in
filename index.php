@@ -1,18 +1,13 @@
 <?php
-/**
- *
- * @package WordPress
- * @subpackage meu-tema
- * @since 1.0
- * @version 1.0
- */
+/* Template Name: Home Template */
+get_header(); ?>
 
- 
- get_header(); ?>
+
 
 <?php
 $nossa_query = new WP_Query( array( 'post_type' => 'receitas') );?>
 
+<section class="ph">
 
 <?php if ($nossa_query->have_posts()): ?>
     <?php while($nossa_query->have_posts()): ?>
@@ -63,5 +58,6 @@ $nossa_query = new WP_Query( array( 'post_type' => 'receitas') );?>
     <?php endwhile; ?>
 <?php endif; ?>
 
+</section>
 
 <?php get_footer(); ?>

@@ -200,6 +200,9 @@ Text Domain: Restaurante Sabor Brasil
   width: 220px;
 margin-bottom: 30px;}
 
+.ph img a:hover{
+	border:none;
+}
 .ph-container-texto{
 	text-align: left;}
 /* ------------------------------------------------------------------------------------------ */
