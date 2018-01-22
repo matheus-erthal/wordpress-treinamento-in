@@ -4,13 +4,22 @@ wp_enqueue_style('style', get_stylesheet_uri());
 
 add_theme_support( 'post-thumbnails' );
 
+<<<<<<< HEAD
 function adicionar_script(){
     wp_enqueue_script('script_funcionalidades', get_template_directory_uri() . '/js/funcionalidades.js', array('jquery'),'1.0', false);
+=======
+//para adicionar jQuery
+function adicionar_script(){
+	wp_enqueue_script('script_funcionalidades', get_template_directory_uri() . '/js/funcionalidades.js', array('jquery'),'1.0', false);
+>>>>>>> 1aa17382c635b87f7530eb0d86e5607df75cb523
 
 }
 
 add_action( 'wp_enqueue_scripts', 'adicionar_script' );
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1aa17382c635b87f7530eb0d86e5607df75cb523
 
 function cadastrando_post_type_imagens() {
 

@@ -126,31 +126,30 @@ get_header();
 
 <section class="contato">
 	<h2>Contato</h2>
-	 
+
+	<img src="<?= get_template_directory_uri(); ?>/fotos/cont.jpg" alt="contato: fale conosco.">
 
 	<div class="contato-mailer">
-    <form id="contact_form" action="#" method="post" enctype="multipart/form-data">
-  <div class="row">
-    <label for="name">Nome:</label><br>
-    <input id="name" class="input" name="name" type="text"/>
-  </div>
-  <div class="row">
-    
-    <label for="email">Email:</label><br>
-
-    <input id="email" class="input" name="email" type="text"/>
-  </div>
-  <div class="row">
-   
-    <label for="message">Mensagem:</label><br/>
-   
-    <textarea id="message" class="input" name="message" rows="10" cols="30"></textarea><br>
-  </div>
-
-   <p><input id="submit_button" class="botao" type="submit" value="ENVIAR"/></p>
- 
-</form>           
+		<form id="contact_form" action="#" method="post" enctype="multipart/form-data">
+			<div class="row">
+				<label for="name">Nome:</label><br>
+				<input id="name" class="input" name="name" type="text" placeholder="Nome"/>
+			</div>
 		
+			<div class="row">
+				<label for="email">Email:</label><br>
+				<input id="email" class="input" name="email" type="text" placeholder="Email"/>
+			</div>
+	
+			<div class="row">
+				<label for="message">Mensagem:</label><br/>
+				<textarea id="message" class="input" name="message" rows="10" cols="30" placeholder="Mensagem"></textarea><br>
+			</div>
+
+			<p><input id="submit_button" class="botao" type="submit" value="enviar"/></p>
+
+		</form>           
+
 	</div>
 </section>
 
