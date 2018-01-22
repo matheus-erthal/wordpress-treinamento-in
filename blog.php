@@ -3,7 +3,6 @@
 
 ?>
 
-
 <section class="posts">
 	<div class="posts-container">
 		<?php if ($nossa_query -> have_posts()); ?>
@@ -18,10 +17,7 @@
 				
 				<p><?php the_content(); ?></p>
 
-	    	<?php endwhile: ?>
+		    <?php endwhile: ?>
 		<?php endif: ?>	
 	
-
-
-
 </section>
