@@ -1,5 +1,6 @@
 $(document).ready( function(){
-alert("foi");
+//alert("foi");
+
 $(".left").click(function(){
      plusDivs(-1);
 });
