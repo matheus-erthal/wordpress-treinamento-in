@@ -38,8 +38,7 @@ $nossa_query = new WP_Query( array( 'post_type' => 'receitas') );?>
                  <?php the_content() ?>
             </p>
             </div>
-            </div>
-        
+            </div>        
 
         <?php $nossa_query->the_post();?>
         
