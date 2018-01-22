@@ -6,7 +6,7 @@ add_theme_support( 'post-thumbnails' );
 
 //para adicionar jQuery
 function adicionar_script(){
-	wp_enqueue_script('script_funcionalidades', get_template_directory_uri() . '/js/funcionalidades.js', array('jquery'),'1.0', false);
+    wp_enqueue_script('script_funcionalidades', get_template_directory_uri() . '/js/funcionalidades.js', array('jquery'),'1.0', false);
 
 }
 

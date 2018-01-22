@@ -31,4 +31,12 @@ $nossa_query = new WP_Query( array('posts_type' => notas) );
 	<?php endif; ?>
 </div>
 
+
+
+
+
+    	<?php endwhile; ?>
+	<?php endif; ?>
+</div>
+
 <?php get_footer();
