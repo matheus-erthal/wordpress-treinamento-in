@@ -13,20 +13,22 @@ get_header(); ?>
 $nossa_query = new WP_Query( array('posts_type' => notas) );
 ?>
 
-<h1>Blog Grupo 4</h1>
-
-<?php if ($nossa_query -> have_posts()): ?>
+<div class="blog-post">
+	<?php if ($nossa_query -> have_posts()): ?>
     
-    <?php while($nossa_query -> have_posts()): ?>
+  	  <?php while($nossa_query -> have_posts()): ?>
     
-        <?php $nossa_query -> the_post(); ?>
-	
-	<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2> </a>
-	
-	<p><?php the_content(); ?></p>
+        	<?php $nossa_query -> the_post(); ?>
 
-    <?php endwhile; ?>
-<?php endif; ?>
+		<div class="blog-title">	
+			<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2> </a>
+		</div>
+		<div class="blog-text">
+			<p><?php the_content(); ?></p>
+		</div>
+
+    	<?php endwhile; ?>
+	<?php endif; ?>
+</div>
 
 <?php get_footer();
-
