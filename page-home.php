@@ -3,56 +3,17 @@
 get_header(); ?>
 
 <section class="ph">
-
-  <div class="ph-container-imagens">
-    <div class="ph-container-blue">
-        <img src="<?= get_template_directory_uri(); ?>/assets/img/bobo.jpg" >
-    </div>
-    <div class="ph-container-green">
-        <img src="<?= get_template_directory_uri(); ?>/assets/img/Rabada.jpg" >
-    </div>
-    <div class="ph-container-yellow">
-        <img src="<?= get_template_directory_uri(); ?>/assets/img/feijoada.png">
-    </div>
-    </div>
     <div class="ph-container">
     <div class="ph-container-texto">
       <p>
-        <h1>Bobó de Camarão</h1>
-        <h2>Ingredientes:</h2>
-        <ul>
-          <li>  1 ½ kg de camarões médios limpos </li>
-          <li>  Sal a gosto </li>
-          <li>  Pimenta </li>
-          <li>  Suco de 2 limões </li>
-          <li>  1 maço de cheiro verde picado </li>
-          <li>  1 folha de louro verde picada </li>
-          <li>  2 cebolas raladas </li>
-          <li>  5 colheres (sopa) de óleo </li>
-          <li>  2 pimentões sem pele picados </li>
-          <li>  8 tomates sem pele nem semente </li>
-          <li> 1 kg de aipim cozido </li>
-          <li>  ½ kg de inhame </li>
-          <li>  2 copos de leite de coco </li>
-          <li>  4 colheres (sopa) de azeite de dendê </li>
-          <li>  Molho de pimenta vermelha a gosto </li>
-        </ul>
-
-        <h2>Modo de preparo:</h2>
-        <ul>
-          <li>Tempere o camarão com sal, pimenta, suco de limão, cheiro verde, louro e cebola </li>
-          <li>Deixe a mistura tomar gosto por cerca de 30 minutos</li>
-          <li>Refogue o camarão no óleo, juntamente com os temperos</li>
-          <li>Acrescente o pimentão e o tomate</li>
-          <li>Tampe e deixe apurar em fogo baixo durante 15 minutos</li>
-          <li>Cozinhe o aipim e o inhame, bata no liquidificador com o leite de coco</li>
-          <li>Misture ao refogado de camarão e deixe apurar mais um pouco</li>
-          <li>Acrescente o azeite de dendê, molho de pimenta, mexa e deixe mais 5 minutos</li>
-        </ul>
-          <h1>R$ 49,90</h1>
+        <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+        <div class="ph-container-blue">
+        <img class ="ph-container-imagens" src="<?php the_field('foto_da_receita'); ?>">
+        <p><?php the_content() ?></p>
       </p>
     </div>
   </diV>
+</section>
 
 
 
