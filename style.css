@@ -48,7 +48,7 @@ Text Domain: Restaurante Sabor Brasil
   clear: both;
 }
 
-.cabecalho-item a{
+.cabecalho-item h2 a{
   font-family: 'Montserrat', sans-serif;
   font-size: 0.7em;
   letter-spacing: 3px;
@@ -58,7 +58,7 @@ Text Domain: Restaurante Sabor Brasil
   border: 0px solid #f4e567;
 }
 
-.cabecalho-item a:hover{
+.cabecalho-item h2 a:hover{
   color: #006db2;
   border-bottom: 1px solid #f4e567;
   padding: 9px;
@@ -70,6 +70,7 @@ Text Domain: Restaurante Sabor Brasil
   margin-top: -95px;
   margin-bottom: -75px;
 }
+
 
 /* ------------------------------------------------------------------------------------------ */
 
@@ -129,7 +130,8 @@ Text Domain: Restaurante Sabor Brasil
 .ph{
 	padding: 30px;
   margin: 0 auto;
-  float: left;
+  max-width: 920px;
+  
 }
 
 .ph li{
@@ -139,12 +141,16 @@ Text Domain: Restaurante Sabor Brasil
 
 .ph h1{
 	font-family: 'Oxygen Mono', monospace;
-	font-size: 2.25em;
+	font-size: 1.6em;
 	text-align: center;
-	letter-spacing: -2px;
-	margin: 10px auto;
+	letter-spacing: 0px;
+  margin: 10px auto;
+  margin-top: 10px;
 }
 
+.ph h1 a{
+  text-decoration: none;
+}
 .ph h2{
 	font-size: 1.125em;
 	font-weight: bold;
@@ -158,12 +164,14 @@ Text Domain: Restaurante Sabor Brasil
 .ph-container{
 	background: #dddddd;
 	padding: 20px;
-	width: 400px;
-	margin: auto;
+  width: 30%;
+  height: 80%;
+  margin: 10px 10px;
+  float: left;
 }
 
 .ph-container-imagens{
-	max-width: 200px;
+  max-width: 200px;
 	margin: 0 auto;
 }
 .ph-container-imagens::after, .ph-container-imagens::before{
@@ -174,30 +182,58 @@ Text Domain: Restaurante Sabor Brasil
 
 .ph-container-blue{
 	border: 10px solid #006bb0;
-	width: 300px;
 	float:left;
-	margin: 0 10px;
+
 }
 
 .ph-container-yellow{
 	border: 10px solid #fbdb00;
-	width: 300px;
 	float:left;
-	margin: 0 10px;
+
 }
 
 .ph-container-green{
 	border: 10px solid #21c435;
-	width: 300px;
 	float:left;
-	margin: 0 10px;
 }
 .ph img{
-	width: 100%;
-}
+  width: 220px;
+margin-bottom: 30px;}
 
 .ph-container-texto{
-	text-align: left;
+	text-align: left;}
+/* ------------------------------------------------------------------------------------------ */
+/*  4 : SINGLE */
+
+.postagem{
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.postagem h2 a{
+  font-family: georgia;
+  font-style:italic;
+  letter-spacing: 2px;
+  font-size: 1.25em;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #fada00;
+}
+
+.postagem img{
+  width: 100%;
+  
+}
+
+.postagem p{
+  font-family: arial;
+  font-size: 1.125em;
+  text-align: justify;
+  line-height: 1.4em;
+  margin: 10px auto;
 }
 /* ------------------------------------------------------------------------------------------ */
 
