@@ -32,7 +32,7 @@
 				<li><a href="projetos">Projetos</a></li>
 				<li><a href="proposito">Nosso propósito</a></li>
 				<li><a href="contato">Contato</a></li>
-				<li><a href="http://localhost/wordpress/?page_id=77">Blog</a></li>
+				<li><a href="<?php get_permalink();?> /blog.php">Blog</a></li>
 			</ul>
 		</nav>
 	</div>

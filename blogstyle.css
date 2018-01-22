@@ -1,75 +1,114 @@
-/*
-Theme Name: Home Template
-Author: Letícia, Marcelo e Pedro Souza
-Description: Tema utilizado para o treinamento da IN Junior
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: meu-tema
-*/
-
-/* reset */
-
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: 'Raleway', sans-serif;
-}
-
-section {
-	height: 100vh;
-}
-
 /* CSS DO BLOG */
 
-/* POSTS */
+/*reset*/
+*{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.blog-header {
+	background: #221E46;
+	text-align: center;
+	width: 100%;
+	height: 13vh;
+}
+
+.bh-container {
+	max-width: 920px;
+	padding: 15px;
+	margin: auto auto;
+}
+
+.bh-container img{
+	float: left;
+}
+
+.blog-header a {
+	color: white;
+	text-decoration: none;
+}
+
+.blog-header li {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.bh-container::after, .bh-container::before {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.mnav {
+	float: right;
+}
+.mnav li{
+	display: inline-block;
+}
+
+.mnav li a {
+	padding: 15px;
+	display: block;
+}
 
 .posts {
 	background: #ECEBEA;
-	text-align: justify;
+	text-align: left;
 	padding: 40px 200px;
 }
 
-.posts-container {
-	margin: 50px 0px;
-}
-
-.posts-container h2 {
+.posts h2 {
 	padding: 20px 0;
-	font-size: 2em;
 }
 
-.posts-container p {
+.posts p {
 	padding: 10px 0;
 	font-size: 0.9em;
-	line-height: 1.3em;
 }
-.posts-container a {
+.posts a {
 	text-decoration: none;
 	color: #000;
 }
 
-.recentes , .anteriores {
-	text-decoration: none;
-	color: #000;
-}
-
-/* SINGLE POST */ 
 .post {
-	background: #ECEBEA;
-	text-align: justify;
+	background: #E5E6EB;
+	text-align: left;
 	padding: 40px 200px;
 }
 
 .post h2{
 	padding: 20px 0;
-	font-size: 3em;
 }
 
-.post p{
-	padding-bottom: 20px;
+.blog-footer {
+	padding: 45px;
+	background: #221E46;
+	color: white;
+	height: 5vh;
 }
 
-/* ARCHIVES */
+.foot-container {
+	max-width: 920px;
+	margin: 0 auto;
+}
 
+.foot-container p {
+	float: right;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.blog-footer a {
+	float: left;
+	margin: auto;
+}
+
+.blog-footer i {
+	font-size: 2em;
+	color: white;
+	padding: 0px 10px;
+}
+
+.blog-footer i:hover {
+	color: gray;

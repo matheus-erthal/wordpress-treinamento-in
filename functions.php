@@ -34,3 +34,8 @@ function cadastrando_post_type_news() {
 }
 
 add_action('init', 'cadastrando_post_type_news');
+
+add_filter('carousel_slider_load_scripts', 'carousel_slider_load_scripts');
+function carousel_slider_load_scripts( $load_scripts ) {
+    return true;
+}

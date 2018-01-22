@@ -22,12 +22,16 @@ get_header();
 		<div class="projects">
 			<h2> Projetos </h2>
 		</div>
+		<div class = "carousel">
+			<?php echo do_shortcode("[carousel_slide id='84']") ?>
+		</div>
 	</section>
 
 	<section class="proposito">
+		<div class= "pergaminho">
 		<h2> Nosso Propósito </h2>
-		<p> <?php the_field('texto_proposito'); ?></p>
-		<div class= "pergaminho"></div>
+			<p> <?php the_field('texto_proposito'); ?></p>
+		</div>
 	</section>
 
 	<section class="contato">
@@ -38,11 +42,10 @@ get_header();
 				<input type="text" placeholder="Digite seu nome"> <br>
 				<input type="text" placeholder="Digite seu e-mail"> <br>
 				<textarea rows="11" cols="39" placeholder="Escreva..."></textarea> <br>
-				<button type="submit"><a href="#">Envia</a></button>
+				<button type="submit"><a href="#">Enviar</a></button>
 			</form>
 			<br><br>
 			<p> Rua Passo da Pátria, 156 - Instituto de Computação - Sala 115-B. Niterói - RJ <br>
-			<i class="fa fa-phone"></i> (22) 99746-1629 <br>
 			<i class="fa fa-envelope"></i> contato@injunior.com.br</p>
 			<!-- Include the Google Maps API library - required for embedding maps -->
 			<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -82,6 +85,6 @@ get_header();
 		</div>
 	</section>
 
-	
+
 
 <?php get_footer();

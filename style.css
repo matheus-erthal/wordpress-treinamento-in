@@ -23,6 +23,10 @@ section {
 	height: 100vh;
 }
 
+h2 {
+	padding-top: 7vh;
+}
+
 /* HEADER */
 .top {
 	background: #221E46;
@@ -149,19 +153,14 @@ section {
 }
 
 .proposito h2 {
-	color: black;
+	color: white;
 	padding-bottom: 35px;
 
 }
 
-.proposito p {
-	color: black;
-	line-height: 1.5em;
-}
-
 .pergaminho{
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     background-color: #221E46;
     transition: 0.1s;
     overflow: hidden;
@@ -170,6 +169,17 @@ section {
     opacity: 0.5;
     max-height: 70vh;
     max-width: 35vw;
+}
+
+.proposito p {
+	padding: 2vw;
+	color: white;
+	font-weight: 400;
+	width: 30vw;
+	line-height: 1.5em;
+	opacity: 1;
+	table-layout: fixed;
+	overflow: hidden;
 }
 
 /* SECTION CONTATO */
@@ -189,7 +199,7 @@ section {
 
 .fale-conosco {
 	width: 400px;
-	padding: 45px auto;
+	padding: 35px auto;
 	margin: 0px auto;
 	position: relative;
 	z-index: 1;/* The z-index should be higher than Google Maps */
@@ -197,7 +207,7 @@ section {
 
 .fale-conosco h2 {
 	text-align: center;
-	padding: 35px 0;
+	padding: 7vh 0;
 }
 
 .fale-conosco form {
@@ -252,6 +262,7 @@ section {
 	padding: 45px;
 	background: #221E46;
 	color: white;
+	position: relative;
 }
 
 .footer-container {
