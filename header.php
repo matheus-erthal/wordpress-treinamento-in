@@ -18,6 +18,7 @@
     <script type="text/javascript" src = "<?= get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src = "<?= get_template_directory_uri(); ?>/js/inburger.js"></script>
   </head>
+  
   <body>
     <header class="menu">
         <div class="menu-container">
