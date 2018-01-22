@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 <<<<<<< HEAD
 Theme Name: Restaurante Sabor Brasil
@@ -188,3 +189,197 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: meu-tema
 
 */
+=======
+/*
+<<<<<<< HEAD
+Theme Name: Restaurante Sabor Brasil
+Author: Bárbara, Raul e Thales
+Description: Tema encomendado pelo Restaurante Sabor Brasil
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Restaurante Sabor Brasil
+*/
+
+*,h1,h2,h3,h4,h5,h6,p,ul,img,div,li {
+	margin:0;
+	padding: 0;
+	}
+
+/* 1 : HEADER */
+.cabecalho{
+  background: #fff;
+  text-align: center;
+}
+
+.container::before{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.cabecalho-container{
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 10px;
+  display: inline-block;
+  border-bottom: 1px solid #000;
+}
+
+.cabecalho-item{
+  padding-top: 90px;
+  position: relative;
+  float:left;
+  width: 306px;
+  text-align: center;
+}
+
+.cabecalho-container::after, .cabecalho-container::before{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.cabecalho-item a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  border: 0px solid #f4e567;
+}
+
+.cabecalho-item a:hover{
+  color: #006db2;
+  border-bottom: 1px solid #f4e567;
+  padding: 9px;
+  transition: 0.3s;
+}
+
+.cabecalho-item img{
+
+  margin-top: -95px;
+  margin-bottom: -75px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* 2: QUEM SOMOS */
+.qs{
+  background: #fff;
+  margin: 20px auto;
+}
+
+.qs-container{
+  max-width: 960px;
+  margin: 0 auto;
+  height: 500px;
+  padding: 50px auto;
+}
+.qs::after, .qs::before{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.container-img{
+  background-color: #fada00;
+  padding: 10px;
+  width: 440px;
+  float: left;
+  margin-left: 10px;
+
+}
+.container-img img{
+  width: 440px;
+}
+
+.container-texto{
+  background-color: #efefef;
+  padding: 10px;
+  width: 440px;
+  margin: 0 15px;
+  float: left;
+
+}
+
+.container-texto p{
+  line-height: 1.4em;
+  font-family: monospace;
+  font-size: 1.125em;
+  text-align: justify;
+  padding: 20px;
+  border: 1px solid #c2bebe;
+  color: #454336;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/*  : FOOTER */
+.footer{
+  background-color: #000000;
+
+
+}
+.footer-container{
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #fff;
+}
+
+.footer-sobre{
+  background-color: #dddddd;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 5px 0;
+}
+
+.footer-container-img {
+  width: 200px;
+  float: right;
+  margin-top: -45px;
+}
+
+.footer-container::after, .footer-container::before{
+  	content:"";
+  	display: block;
+  	clear: both;
+}
+
+.barra {
+  color: #ababab;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 1.125em;
+  padding: 10px;
+  width: 200px;
+}
+
+.botao-barra {
+  padding: 12px;
+  height: 45px;
+  background-color: white;
+  border: none;
+  color: #272727;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 1.125em;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/*  : CARROSEL
+
+Theme Name: Meu tema
+Author: Amanco e Bruna
+Description: Tema utilizado para o treinamento da IN Junior
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meu-tema
+
+*/
+>>>>>>> 0cff8929256a7a94b391cbc4e12f4df9bdb1c713

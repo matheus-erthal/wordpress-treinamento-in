@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /* Template Name: Home Template */
 get_header();
@@ -126,3 +127,19 @@ Juntar o cheiro verde na hora de servir.</BR>
 </section>
 
 <?php get_footer(); ?>
+=======
+
+<?php
+/* Template Name: Home Template */
+
+
+/* Template Name: Home Template */
+
+get_header();
+
+?>
+
+<h2>Minha página pica</h2>
+
+<?php get_footer(); ?>
+>>>>>>> 0cff8929256a7a94b391cbc4e12f4df9bdb1c713
