@@ -1,0 +1,2 @@
+Grupo de candidatos do processo seletivo tentando sob pressão invadir o site do FBI utilizando COBOL.
+Uma das tarefas de nível simples do processo seletivo com tempo médio de execução de 15 minutos aproximadamente.

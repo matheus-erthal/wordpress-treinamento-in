@@ -21,7 +21,7 @@ get_header(); ?>
 
 
 
-
+	<div class="blog-post-single">
 
 	<h2> <?php the_title(); ?> </h2>
 	
@@ -37,7 +37,7 @@ get_header(); ?>
         <img src ="<?php the_field('imagem_7'); ?>">
         <img src ="<?php the_field('imagem_8'); ?>">
 
-
+	</div>
     
     <?php endwhile; ?>
 <?php endif; ?>
