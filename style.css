@@ -26,6 +26,10 @@ body{
 	height: 140px;
 }
 
+.tudo{
+	padding-top: 140px;
+}
+
 .menu-container {
 	max-width: 960px;
 	padding: 15px;
@@ -98,6 +102,9 @@ body{
 .img-container{
 	height: inherit;
 }
+.img-container img{
+	opacity: 0.8;
+}
 
 .slide {
 	position: relative;
@@ -150,15 +157,18 @@ body{
 	font-size: 2em;
 	border: 3px solid black;
 	color: black;
-	padding: 5px 10px;
+	padding: 5px 5px;
 	text-transform: uppercase;
 	text-align: center;
 	display: inline-block;
 	position: absolute;
 	top: 180px;
-	left: 120px;
+	left: 130px;
 	opacity: 0;
 	transition: 0.5s;
+}
+#botao2{
+	left:100px;
 }
 .aparecer{
 	opacity: 1 !important;
@@ -175,7 +185,7 @@ body{
 	margin: 0 auto;
 	width: 100%;
 	background-size: cover;
-	background-image: url("img/sobre.jpg");
+	background-image: url("sobre.jpg");
 	background-attachment: fixed;
 
 }
@@ -280,11 +290,17 @@ body{
 
 .direita p{
 	float: left;
-	padding: 50px 60px;
+	word-wrap: break-word;
+    width: 350px;
+    left: 800px;
+    margin-top: -250px;
+    position: absolute;
 }
 
 .direita h2{
 	float: left;
+	left: 60px;
+	position: relative;
 }
 
 .esquerda{
@@ -293,18 +309,20 @@ body{
 	padding: 30px;
 }
 
-#principal{
-	margin-top: 60px;
-}
 
 .esquerda p{
 	float: right;
-	padding: 50px 60px;
+	word-wrap: break-word;
+    width: 350px;
+    left: 800px;
+    margin-top: -250px;
+    position: absolute;
 }
 
 .esquerda h2{
 	float: right;
-	margin: 0 -50px;
+	left: 60px;
+	position: relative;
 }
 
 /*----footer----*/
