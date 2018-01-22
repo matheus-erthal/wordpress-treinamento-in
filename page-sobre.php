@@ -11,14 +11,13 @@ $nova_sobre = new WP_Query (array("post_type" => sobre)); //determina dois posts
 <?php if($nova_sobre->have_posts()): ?> <!--pega todos os posts-->
     <?php while($nova_sobre->have_posts()): ?>
         <?php $nova_sobre->the_post(); ?> <!--puxa o post-->
-    <a href = "<?php the_permalink(); ?>"></a>
-    <section>
-        <div class="conteudo">
-            <div class="conteudo-container">
-                <img src= "<?= get_template_directory_uri(); ?>/img/sobre.jpg" alt="Sobre Nós">
-                <h2><?php the_title(); ?></h2>
-                <p><?php the_content();  ?></p>
-                </div>
+
+        <section class="conteudo">
+        <div class="conteudo-container">
+            <div class="conteudo-nav" >
+                <h2>A confeitaria</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus arcu, vestibulum a quam in, pretium vestibulum massa. Curabitur sit amet gravida odio, sed tempus magna. Curabitur tincidunt lorem quis sapien posuere, non fermentum nulla mollis. Sed accumsan dui libero, ut viverra est semper porta. Duis lobortis purus eu turpis dignissim suscipit. Nam erat tortor, molestie sit amet iaculis vel, venenatis vitae mauris. Curabitur gravida risus at tortor cursus cursus sed congue quam. Nunc feugiat lectus a egestas consequat. Curabitur arcu neque, placerat quis neque tempus, dignissim imperdiet massa. Fusce quis mollis orci. Pellentesque posuere metus at nisi convallis, eget varius leo gravida. Suspendisse suscipit varius magna sit amet condimentum. Etiam lacus turpis, tristique elementum ultrices a, vulputate vitae ante. Donec pulvinar, neque vel pharetra bibendum, velit nisl interdum neque, vel ornare velit ipsum a nibh.</p>
+            </div>
         </div>
 </section>
 
@@ -33,9 +32,7 @@ $nova_sobre = new WP_Query (array("post_type" => sobre)); //determina dois posts
           </div>
         </div>
    </section>
-                </div>
-            </div>
-    </section>
+                
     <?php endwhile; ?>
 <?php endif; ?>
 

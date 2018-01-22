@@ -33,7 +33,6 @@ get_header(); //chama o header//
           <div class = "indice-container">
             <div class = "indice-img">
                 <img src = "<?= get_template_directory_uri(); ?>/img/indice1.png" alt = "Sobre Nós">
-                <h2>Sobre Nós</h2>
                 <a href = "#">Saiba Mais</a>
             </div>
           </div>
@@ -41,7 +40,6 @@ get_header(); //chama o header//
           <div class = "indice-container">
             <div class = "indice-img">   
                 <img src = "<?= get_template_directory_uri(); ?>/img/indice2.png" alt = "Onde Estamos">
-                <h2>Onde Estamos</h2>
                 <a href = "#">Saiba Mais</a>
               </div>  
           </div>
