@@ -46,4 +46,4 @@ add_action('init', 'cadastrando_post_type_receitas');
 
     add_action('init', 'cadastrando_post_type_notas');
 }
-  get_header();  ?>
+  ?>
